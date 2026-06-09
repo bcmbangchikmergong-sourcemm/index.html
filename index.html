@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Pakar Bushing Kereta & Servis Suspension KL | MHA Autoworks</title>
-    <meta name="description" content="MHA Autoworks & Services - Pakar bushing kereta, servis absorber, drive shaft, dan skim disc brake di Setapak, Kuala Lumpur. Selesaikan bunyi duk duk & steering bergegar sekarang!">
+    <meta name="description" content="MHA Autoworks & Services - Pakar bushing kereta, servis absorber depan, drive shaft, dan skim disc brake di Setapak, Kuala Lumpur. Selesaikan bunyi duk duk & steering bergegar sekarang!">
     <meta name="keywords" content="Tukar bushing kereta KL, Pakar bushing kereta Kuala Lumpur, Servis absorber Kuala Lumpur, Servis absorber Setapak, Service drive shaft Kuala Lumpur, Skim disc Kuala Lumpur, Bengkel suspension Setapak, Tukar lower arm bush KL, Tukar stabilizer bush KL, Tukar axle bush KL">
     
     <!-- Google Fonts -->
@@ -36,7 +36,7 @@
     <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- CSS Animation Enhancements -->
+    <!-- CSS Animation & Interactive Styling -->
     <style>
         .glow-button {
             box-shadow: 0 4px 20px rgba(214, 0, 0, 0.4);
@@ -58,6 +58,20 @@
         }
         html {
             scroll-behavior: smooth;
+        }
+        /* Custom scrollbar to match dark premium theme */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #111111;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D60000;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b00000;
         }
     </style>
 
@@ -155,15 +169,15 @@
 <body class="bg-white text-gray-900 font-sans antialiased overflow-x-hidden">
 
     <!-- Top Announcement Bar -->
-    <div class="bg-primary text-white text-xs md:text-sm font-semibold py-2 px-4 text-center sticky top-0 z-50 flex justify-between items-center max-w-full">
+    <div class="bg-primary text-white text-xs md:text-sm font-semibold py-2.5 px-4 text-center sticky top-0 z-50 flex justify-between items-center max-w-full">
         <span class="mx-auto flex items-center gap-2">
             <span class="w-2.5 h-2.5 bg-green-400 rounded-full animate-ping"></span>
-            🔥 SLOT DI BENGKEL ADALAH TERHAD UNTUK MINGGU INI! TEMPAH SLOT SEKARANG
+            🔥 SLOT BENGKEL DI SETAPAK ADALAH TERHAD UNTUK MINGGU INI! TEMPAH SEKARANG
         </span>
     </div>
 
     <!-- Header / Navbar -->
-    <header class="bg-darkBg py-4 px-4 sm:px-6 lg:px-8 border-b border-zinc-800 sticky top-9 z-40 shadow-md">
+    <header class="bg-darkBg py-4 px-4 sm:px-6 lg:px-8 border-b border-zinc-800 sticky top-10 z-40 shadow-md">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <!-- Logo Section -->
             <div class="flex flex-col">
@@ -188,7 +202,7 @@
 
             <!-- Call to Action Head -->
             <div>
-                <a href="tel:0194103062" class="bg-zinc-800 text-white hover:bg-zinc-700 font-bold py-2 px-4 rounded-lg text-xs md:text-sm transition flex items-center gap-2 border border-zinc-700">
+                <a href="tel:+60194103062" class="bg-zinc-800 text-white hover:bg-zinc-700 font-bold py-2.5 px-4 rounded-lg text-xs md:text-sm transition flex items-center gap-2 border border-zinc-700">
                     <i class="fa-solid fa-phone text-primary"></i> Hubungi Kami
                 </a>
             </div>
@@ -240,10 +254,10 @@
 
                     <!-- Direct Conversion Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a href="https://wa.me/60194103062?text=Naktukarbush" target="_blank" class="glow-button bg-primary hover:bg-red-700 text-white text-center py-4 px-8 rounded-xl font-bold text-base md:text-lg flex items-center justify-center gap-3 transition">
-                            <i class="fa-brands fa-whatsapp text-xl"></i> 📱 WhatsApp Sekarang (Semak Kos)
+                        <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." target="_blank" class="glow-button bg-primary hover:bg-red-700 text-white text-center py-4 px-8 rounded-xl font-bold text-base md:text-lg flex items-center justify-center gap-3 transition">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> 📱 WhatsApp Tempah Slot Janji Temu
                         </a>
-                        <a href="https://waze.com/ul?q=340%20Jalan%20Ayer%20Panas%20Setapak%2053100%20Kuala%20Lumpur" target="_blank" class="bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-center py-4 px-6 rounded-xl font-bold text-sm md:text-base flex items-center justify-center gap-2 transition">
+                        <a href="https://waze.com/ul?ll=3.1906,101.7131&navigate=yes" target="_blank" class="bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white text-center py-4 px-6 rounded-xl font-bold text-sm md:text-base flex items-center justify-center gap-2 transition">
                             <i class="fa-brands fa-waze text-xl text-sky-400"></i> 📍 Buka Waze (Navigasi Bengkel)
                         </a>
                     </div>
@@ -283,7 +297,7 @@
                         
                         <!-- Dynamic Button based on selection -->
                         <button type="button" onclick="submitHeroQuiz()" class="w-full mt-4 bg-primary hover:bg-red-700 text-white font-bold py-3.5 px-4 rounded-xl text-sm transition flex items-center justify-center gap-2">
-                            <i class="fa-brands fa-whatsapp"></i> Klik Untuk Tanya Pakar Mekanik
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Hantar Diagnosis ke WhatsApp
                         </button>
                     </form>
                 </div>
@@ -395,7 +409,7 @@
 
         <!-- Problem Section Bottom CTA -->
         <div class="mt-12 text-center">
-            <a href="https://wa.me/60194103062?text=Sayamengalamimasalahbunyisuspension" target="_blank" class="inline-flex items-center gap-3 bg-primary hover:bg-red-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition">
+            <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." target="_blank" class="inline-flex items-center gap-3 bg-primary hover:bg-red-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition">
                 <i class="fa-brands fa-whatsapp text-xl"></i> 📱 Semak Punca Melalui WhatsApp Sekarang
             </a>
         </div>
@@ -432,13 +446,13 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Naktanyapasalbushingkereta" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Bush
                     </a>
                 </div>
             </div>
 
-            <!-- Service Card 2 -->
+            <!-- Service Card 2 (Absorber DEPAN SAHAJA) -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-xl flex flex-col justify-between hover:border-primary/50 transition">
                 <div class="p-6">
                     <div class="w-12 h-12 bg-primary/10 text-primary border border-primary/20 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
@@ -446,16 +460,16 @@
                     </div>
                     <h3 class="text-xl font-heading font-bold mb-3">Servis Absorber</h3>
                     <p class="text-zinc-400 text-sm mb-6 leading-relaxed">
-                        Pemanduan melambung-lambung atau berayun kuat? Tukar absorber berkualiti atau periksa suspension geometry kenderaan anda untuk keselesaan mutlak.
+                        Pemanduan bahagian hadapan melambung-lambung atau berayun kuat? Tukar absorber berkualiti tinggi bagi memastikan kedudukan hadapan kenderaan anda kembali seimbang.
                     </p>
                     <ul class="space-y-2 text-xs text-zinc-300 border-t border-zinc-800/80 pt-4">
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-chevron-right text-primary text-[10px]"></i> Servis Absorber Depan &amp; Belakang</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-chevron-right text-primary text-[10px]"></i> Servis Absorber Vellfire / Estima</li>
-                        <li class="flex items-center gap-2"><i class="fa-solid fa-chevron-right text-primary text-[10px]"></i> Diagnostik Komponen Suspension Gantung</li>
+                        <li class="flex items-center gap-2 text-primary font-bold"><i class="fa-solid fa-circle-check text-[10px]"></i> Servis Absorber Depan Sahaja</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-chevron-right text-primary text-[10px]"></i> Servis Absorber Depan MPV / SUV</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-chevron-right text-primary text-[10px]"></i> Diagnostik Komponen Front Suspension</li>
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Naktanyapasalservisabsorber" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Absorber
                     </a>
                 </div>
@@ -478,7 +492,7 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Naktanyapasaldriveshaft" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Drive Shaft
                     </a>
                 </div>
@@ -488,7 +502,7 @@
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-xl flex flex-col justify-between hover:border-primary/50 transition">
                 <div class="p-6">
                     <div class="w-12 h-12 bg-primary/10 text-primary border border-primary/20 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
-                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle text-sm"></i>
                     </div>
                     <h3 class="text-xl font-heading font-bold mb-3">Skim Disc Brake</h3>
                     <p class="text-zinc-400 text-sm mb-6 leading-relaxed">
@@ -501,7 +515,7 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Naktanyapasalskimdiscbrake" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Skim Disc
                     </a>
                 </div>
@@ -513,10 +527,10 @@
         <div class="max-w-7xl mx-auto mt-12 bg-gradient-to-r from-primary to-red-900 p-8 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
             <div>
                 <h4 class="text-xl md:text-2xl font-heading font-extrabold text-white">Ingin Mengetahui Kos Spesifik Mengikut Model Kereta?</h4>
-                <p class="text-xs md:text-sm text-red-100 mt-1">Hantarkan model kereta anda (contoh: Proton Saga VVT / Toyota Myvi) untuk quotation segera.</p>
+                <p class="text-xs md:text-sm text-red-100 mt-1">Hantarkan model kereta anda (contoh: Proton Saga VVT / Perodua Myvi) untuk sebut harga segera.</p>
             </div>
-            <a href="https://wa.me/60194103062?text=HaiMHAAutoworks,sayanaktanyaanggaranhargaservisuntukkeretamodel..." target="_blank" class="bg-white hover:bg-zinc-100 text-primary font-bold py-3.5 px-6 rounded-xl text-sm transition flex items-center gap-2 shrink-0">
-                <i class="fa-brands fa-whatsapp text-lg"></i> Dapatkan Anggaran Harga
+            <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." target="_blank" class="bg-white hover:bg-zinc-100 text-primary font-bold py-3.5 px-6 rounded-xl text-sm transition flex items-center gap-2 shrink-0">
+                <i class="fa-brands fa-whatsapp text-lg"></i> Hubungi Kami Sekarang
             </a>
         </div>
     </section>
@@ -526,863 +540,666 @@
         <div class="max-w-4xl mx-auto text-center mb-16">
             <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Kenapa MHA Autoworks</span>
             <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
-                Kenapa Ramai Pelanggan Pilih MHA AUTOWORKS?
+                Sebab Utama Pemilik Kereta Memilih Kami
             </h2>
             <p class="text-zinc-600 mt-3 text-sm sm:text-base">
-                Kami komited memberikan mutu kerja standard premium tanpa kos berlebihan. Kepuasan anda adalah keutamaan kami.
+                Kami bukan sekadar bengkel biasa. Kami mementingkan kualiti pemasangan dan kepuasan pemanduan anda.
             </p>
         </div>
 
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
-            <!-- Benefit 1 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl flex gap-4 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-red-100 text-primary rounded-xl flex items-center justify-center text-xl shrink-0">
-                    <i class="fa-solid fa-user-gear"></i>
-                </div>
-                <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Pakar Bushing Kereta</h4>
-                    <p class="text-zinc-600 text-sm leading-relaxed">Mekanik kami berpengalaman bertahun-tahun menganalisa masalah kerosakan getah bushing, kedudukan linkage dan absorber.</p>
-                </div>
-            </div>
-
-            <!-- Benefit 2 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl flex gap-4 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-red-100 text-primary rounded-xl flex items-center justify-center text-xl shrink-0">
+            <!-- Advantage 1 -->
+            <div class="bg-zinc-50 p-6 rounded-2xl border border-zinc-100 text-center hover:shadow-lg transition">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                     <i class="fa-solid fa-compress"></i>
                 </div>
-                <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Mesin Pump Bush Hidraulik</h4>
-                    <p class="text-zinc-600 text-sm leading-relaxed">Penggunaan hydraulic press professional membolehkan penukaran bushing dibuat dengan tepat tanpa merosakkan perumah lower arm asal.</p>
-                </div>
+                <h4 class="font-heading font-bold text-lg text-darkBg mb-2">Mesin Press Hidraulik</h4>
+                <p class="text-zinc-600 text-sm">
+                    Kami menukar bushing menggunakan mesin press hidraulik profesional. Tiada ketukan tukul kasar yang merosakkan lengan besi (lower arm) anda.
+                </p>
             </div>
 
-            <!-- Benefit 3 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl flex gap-4 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-red-100 text-primary rounded-xl flex items-center justify-center text-xl shrink-0">
-                    <i class="fa-solid fa-piggy-bank"></i>
+            <!-- Advantage 2 -->
+            <div class="bg-zinc-50 p-6 rounded-2xl border border-zinc-100 text-center hover:shadow-lg transition">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                    <i class="fa-solid fa-user-gear"></i>
                 </div>
-                <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Tidak Perlu Tukar Set Lower Arm</h4>
-                    <p class="text-zinc-600 text-sm leading-relaxed">Jimatkan kos pembaikan sehingga 60%! Kami hanya keluarkan getah yang koyak/pecah dan gantikan baru, bukan tukar seluruh part besi.</p>
-                </div>
+                <h4 class="font-heading font-bold text-lg text-darkBg mb-2">Pakar Undercarriage</h4>
+                <p class="text-zinc-600 text-sm">
+                    Mekanik kami berpengalaman luas khusus dalam diagnosis bunyi aneh bawah kenderaan serta pembaikan tepat (bukan teka-teka).
+                </p>
             </div>
 
-            <!-- Benefit 4 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl flex gap-4 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-red-100 text-primary rounded-xl flex items-center justify-center text-xl shrink-0">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- Advantage 3 -->
+            <div class="bg-zinc-50 p-6 rounded-2xl border border-zinc-100 text-center hover:shadow-lg transition">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                    <i class="fa-solid fa-shield-halved"></i>
                 </div>
-                <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Pemeriksaan Awal Percuma</h4>
-                    <p class="text-zinc-600 text-sm leading-relaxed">Kami buat pemeriksaan rapi terlebih dahulu untuk memastikan bahagian mana yang sebenarnya rosak. Tiada salah tukar komponen!</p>
-                </div>
+                <h4 class="font-heading font-bold text-lg text-darkBg mb-2">Alat Ganti Berkualiti</h4>
+                <p class="text-zinc-600 text-sm">
+                    Kami menawarkan pilihan bushing gred Heavy Duty yang direka khas untuk ketahanan ekstrem berdepan permukaan jalan Malaysia yang rosak.
+                </p>
             </div>
 
-            <!-- Benefit 5 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl flex gap-4 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-red-100 text-primary rounded-xl flex items-center justify-center text-xl shrink-0">
+            <!-- Advantage 4 -->
+            <div class="bg-zinc-50 p-6 rounded-2xl border border-zinc-100 text-center hover:shadow-lg transition">
+                <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                     <i class="fa-solid fa-file-invoice-dollar"></i>
                 </div>
-                <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Harga Telus Termasuk Upah</h4>
-                    <p class="text-zinc-600 text-sm leading-relaxed">Sebut harga kami adalah telus, tiada caj tersembunyi. Upah pemasangan sudah siap dikira sekali dalam harga pakej yang ditawarkan.</p>
-                </div>
-            </div>
-
-            <!-- Benefit 6 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl flex gap-4 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-red-100 text-primary rounded-xl flex items-center justify-center text-xl shrink-0">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                </div>
-                <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Lokasi Setapak (Mudah Akses)</h4>
-                    <p class="text-zinc-600 text-sm leading-relaxed">Terletak di Jalan Ayer Panas, Setapak, Kuala Lumpur. Lokasi strategik, mudah diakses, kawasan bengkel selesa dan mempunyai ruang parkir luas.</p>
-                </div>
+                <h4 class="font-heading font-bold text-lg text-darkBg mb-2">Waranti Bertulis</h4>
+                <p class="text-zinc-600 text-sm">
+                    Setiap penukaran alat ganti disertakan dengan tempoh waranti yang sah. Pandu pulang dengan tenang, selamat, dan bebas risau.
+                </p>
             </div>
 
         </div>
     </section>
 
-    <!-- Before & After Comparison Section -->
-    <section class="py-16 bg-zinc-50 border-y border-zinc-200 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center mb-12">
-            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-darkBg">Perbezaan Sebelum &amp; Selepas Servis</h2>
-            <p class="text-zinc-600 mt-2 text-sm sm:text-base">Kenapa sistem undercarriage yang baik amat kritikal kepada keselamatan keluarga anda ketika memandu.</p>
-        </div>
-
-        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Before Card -->
-            <div class="bg-white border-2 border-red-200 rounded-2xl p-6 shadow-sm relative overflow-hidden">
-                <span class="absolute top-4 right-4 bg-red-100 text-red-700 text-xs font-bold px-3 py-1 rounded-full uppercase">SEBELUM</span>
-                <h4 class="font-heading font-bold text-xl text-red-700 mb-4 flex items-center gap-2">
-                    <i class="fa-solid fa-circle-xmark"></i> Pemanduan Kurang Stabil
-                </h4>
-                <ul class="space-y-3.5 text-sm text-zinc-700">
-                    <li class="flex items-start gap-3">
-                        <span class="text-red-600 font-bold shrink-0"><i class="fa-solid fa-xmark"></i></span>
-                        <span>Bunyi berdentum kasar / 'duk-duk' bila melalui jalan tampal.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-red-600 font-bold shrink-0"><i class="fa-solid fa-xmark"></i></span>
-                        <span>Stereng lari ke kiri/kanan dan bergetar kuat ketika kelajuan tinggi.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-red-600 font-bold shrink-0"><i class="fa-solid fa-xmark"></i></span>
-                        <span>Tayar botak secara tidak sekata (makan sebelah luar/dalam).</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-red-600 font-bold shrink-0"><i class="fa-solid fa-xmark"></i></span>
-                        <span>Bahaya semasa membrek kecemasan kerana stereng melonjak-lonjak.</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- After Card -->
-            <div class="bg-white border-2 border-green-200 rounded-2xl p-6 shadow-sm relative overflow-hidden">
-                <span class="absolute top-4 right-4 bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase">SELEPAS</span>
-                <h4 class="font-heading font-bold text-xl text-green-700 mb-4 flex items-center gap-2">
-                    <i class="fa-solid fa-circle-check"></i> Keselesaan Maksimum
-                </h4>
-                <ul class="space-y-3.5 text-sm text-zinc-700">
-                    <li class="flex items-start gap-3">
-                        <span class="text-green-600 font-bold shrink-0"><i class="fa-solid fa-check"></i></span>
-                        <span>Senyap, tiada lagi sebarang bunyi undercarriage yang mengganggu telinga.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-green-600 font-bold shrink-0"><i class="fa-solid fa-check"></i></span>
-                        <span>Stereng tegak lurus, kemudi stabil walaupun dipandu pada kelajuan tinggi.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-green-600 font-bold shrink-0"><i class="fa-solid fa-check"></i></span>
-                        <span>Bunga tayar haus sekata, memanjangkan jangka hayat tayar baru anda.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-green-600 font-bold shrink-0"><i class="fa-solid fa-check"></i></span>
-                        <span>Pemanduan terasa mantap seperti kereta baru keluar showroom.</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-white" id="harga">
-        <div class="max-w-4xl mx-auto text-center mb-12">
-            <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3 py-1.5 rounded-full inline-block mb-3">Senarai Harga Telus</span>
+    <!-- Interactive Price Estimator Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-900 text-white relative">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-zinc-950 opacity-50"></div>
+        <div class="max-w-4xl mx-auto text-center mb-12 relative z-10">
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-primary/10 px-3 py-1.5 rounded-full inline-block mb-3">Anggaran Kos Pantas</span>
             <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold">
-                Senarai Harga Servis &amp; Bushing
+                Kalkulator Anggaran Kos Servis
             </h2>
             <p class="text-zinc-400 mt-3 text-sm sm:text-base">
-                Sila pilih jenama/kategori kenderaan anda di bawah. Nota: Semua harga adalah telus, dan sudah termasuk upah pasang serta press bush.
+                Pilih kategori kenderaan dan servis yang anda inginkan di bawah untuk mendapatkan anggaran kasar secara telus.
             </p>
-            
-            <div class="mt-4 bg-zinc-900 border border-zinc-800 p-3 rounded-lg max-w-lg mx-auto text-xs text-accentYellow flex items-center justify-center gap-2">
-                <i class="fa-solid fa-circle-info"></i>
-                <span>Semua upah pemasangan adalah termasuk bagi servis berkaitan.</span>
-            </div>
         </div>
 
-        <!-- Pricing Interactive Wrapper -->
-        <div class="max-w-5xl mx-auto">
-            
-            <!-- Category Tabs Buttons -->
-            <div class="flex flex-wrap justify-center gap-2 mb-8" id="price-tabs">
-                <button onclick="switchPriceTab('proton-perodua')" class="price-tab-btn active bg-primary text-white font-semibold py-2.5 px-4 rounded-xl text-xs md:text-sm transition-all focus:outline-none">
-                    Proton / Perodua
-                </button>
-                <button onclick="switchPriceTab('toyota-honda')" class="price-tab-btn bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-semibold py-2.5 px-4 rounded-xl text-xs md:text-sm transition-all focus:outline-none">
-                    Toyota / Honda / Nissan / Hyundai
-                </button>
-                <button onclick="switchPriceTab('volkswagen')" class="price-tab-btn bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-semibold py-2.5 px-4 rounded-xl text-xs md:text-sm transition-all focus:outline-none">
-                    Volkswagen (VW)
-                </button>
-                <button onclick="switchPriceTab('4x4')" class="price-tab-btn bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-semibold py-2.5 px-4 rounded-xl text-xs md:text-sm transition-all focus:outline-none">
-                    4x4 Models
-                </button>
-                <button onclick="switchPriceTab('mpv-estima-vellfire')" class="price-tab-btn bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-semibold py-2.5 px-4 rounded-xl text-xs md:text-sm transition-all focus:outline-none">
-                    Estima &amp; Vellfire
-                </button>
-                <button onclick="switchPriceTab('general-servicing')" class="price-tab-btn bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white font-semibold py-2.5 px-4 rounded-xl text-xs md:text-sm transition-all focus:outline-none">
-                    Servis Umum &amp; Skim Disc
-                </button>
+        <div class="max-w-3xl mx-auto bg-zinc-950/80 border border-zinc-800 p-6 sm:p-10 rounded-2xl shadow-2xl relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Select Car Class -->
+                <div>
+                    <label class="block text-sm font-semibold text-zinc-300 mb-2">1. Pilih Jenis / Segmen Kenderaan</label>
+                    <select id="carSegment" onchange="calculateEstimate()" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl p-3.5 text-zinc-100 focus:outline-none focus:border-primary">
+                        <option value="local">Proton / Perodua (Saga, Myvi, Axia, Viva, Alza dll)</option>
+                        <option value="japanese">Kereta Jepun (Toyota, Honda, Nissan, Mazda)</option>
+                        <option value="luxury">Eropah / Mewah (BMW, Mercedes, VW, Audi)</option>
+                        <option value="suv">SUV / MPV Besar / 4X4 (Vellfire, Estima, Hilux, Triton)</option>
+                    </select>
+                </div>
+
+                <!-- Select Service Type -->
+                <div>
+                    <label class="block text-sm font-semibold text-zinc-300 mb-2">2. Pilih Servis Diperlukan</label>
+                    <select id="serviceType" onchange="calculateEstimate()" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl p-3.5 text-zinc-100 focus:outline-none focus:border-primary">
+                        <option value="bushing_pair">Penukaran Lower Arm Bushing (Kiri &amp; Kanan)</option>
+                        <option value="absorber_pair">Servis/Ganti Absorber Depan Sahaja (Sepasang)</option>
+                        <option value="driveshaft">Tukar Drive Shaft (Satu Sisi - Kiri atau Kanan)</option>
+                        <option value="skim_disc">Skim Disc Brake Terus Di Kereta (Kiri &amp; Kanan)</option>
+                    </select>
+                </div>
             </div>
 
-            <!-- Tab Content Container -->
-            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 shadow-xl">
-                
-                <!-- Proton & Perodua Tab -->
-                <div id="price-tab-proton-perodua" class="price-tab-content space-y-4">
-                    <h4 class="font-heading font-bold text-lg text-white border-b border-zinc-800 pb-3 flex items-center justify-between">
-                        <span>Pakej Proton &amp; Perodua</span>
-                        <span class="bg-red-500/10 text-primary border border-primary/20 text-xs px-2.5 py-1 rounded">Popular</span>
-                    </h4>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left text-sm text-zinc-300">
-                            <thead>
-                                <tr class="text-xs text-zinc-500 uppercase border-b border-zinc-800">
-                                    <th class="py-3 px-4">Jenis Servis (Termasuk Upah)</th>
-                                    <th class="py-3 px-4 text-right">Harga (RM)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-zinc-800/60">
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Lower Arm Bush (Kiri & Kanan)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM300 - RM360</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Stabilizer Bar Bush (Sepasang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM140 - RM160</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Stabilizer Link (Sepasang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM160 - RM180</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Axle Bush Belakang</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM400 - RM460</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Spring Seat (Kiri & Kanan)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM120</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Drive Shaft (Satu Sisi)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM160</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <!-- Dynamic Pricing Output Card -->
+            <div class="mt-8 bg-zinc-900/90 border border-zinc-800 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <span class="text-xs uppercase font-bold tracking-widest text-zinc-500">Anggaran Harga Termasuk Upah Pasang</span>
+                    <div class="text-3xl sm:text-4xl font-heading font-extrabold text-accentYellow mt-1" id="estimatedPriceDisplay">
+                        RM160 - RM240*
                     </div>
+                    <p class="text-xs text-zinc-400 mt-2" id="estimatedTimeDisplay">⚡ Anggaran Masa Siap: 1.5 - 2.5 Jam sahaja</p>
                 </div>
-
-                <!-- Toyota & Honda Tab -->
-                <div id="price-tab-toyota-honda" class="price-tab-content hidden space-y-4">
-                    <h4 class="font-heading font-bold text-lg text-white border-b border-zinc-800 pb-3 flex items-center justify-between">
-                        <span>Pakej Toyota / Honda / Nissan / Hyundai</span>
-                        <span class="bg-zinc-800 text-zinc-400 text-xs px-2.5 py-1 rounded">Standard Jepun/Korea</span>
-                    </h4>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left text-sm text-zinc-300">
-                            <thead>
-                                <tr class="text-xs text-zinc-500 uppercase border-b border-zinc-800">
-                                    <th class="py-3 px-4">Jenis Servis (Termasuk Upah)</th>
-                                    <th class="py-3 px-4 text-right">Harga (RM)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-zinc-800/60">
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Lower Arm Bush (Kiri & Kanan)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM320 - RM380</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Stabilizer Bar Bush (Sepasang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM160 - RM180</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Stabilizer Link (Sepasang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM180 - RM220</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Axle Bush Belakang</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM440 - RM480</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Spring Seat (Kiri & Kanan)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM140</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Drive Shaft (Satu Sisi)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM160 <span class="text-xs text-zinc-500">per side</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="w-full md:w-auto">
+                    <button type="button" onclick="bookEstimatedService()" class="w-full md:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-3.5 px-6 rounded-xl text-sm transition flex items-center justify-center gap-2 whatsapp-glow">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Booking Slot Sekarang
+                    </button>
                 </div>
-
-                <!-- Volkswagen (VW) Tab -->
-                <div id="price-tab-volkswagen" class="price-tab-content hidden space-y-4">
-                    <h4 class="font-heading font-bold text-lg text-white border-b border-zinc-800 pb-3 flex items-center justify-between">
-                        <span>Pakej Volkswagen (VW)</span>
-                        <span class="bg-zinc-800 text-zinc-400 text-xs px-2.5 py-1 rounded">Continental Spec</span>
-                    </h4>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left text-sm text-zinc-300">
-                            <thead>
-                                <tr class="text-xs text-zinc-500 uppercase border-b border-zinc-800">
-                                    <th class="py-3 px-4">Jenis Servis (Termasuk Upah)</th>
-                                    <th class="py-3 px-4 text-right">Harga (RM)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-zinc-800/60">
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Lower Arm Bush (4 Biji)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM380</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Stabilizer Bar Bush (2 Biji)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM280</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Stabilizer Link (2 Biji)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM260</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Absorber (Sepasang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM240</td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Drive Shaft (Sebatang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM280</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="text-[11px] text-zinc-500 mt-2">*Nota: Bahagian belakang kenderaan memerlukan pemeriksaan di bengkel terlebih dahulu.</p>
-                </div>
-
-                <!-- 4x4 Models Tab -->
-                <div id="price-tab-4x4" class="price-tab-content hidden space-y-4">
-                    <h4 class="font-heading font-bold text-lg text-white border-b border-zinc-800 pb-3 flex items-center justify-between">
-                        <span>Pakej Kenderaan 4x4 (Hilux / Triton / Ranger dll)</span>
-                        <span class="bg-zinc-800 text-zinc-400 text-xs px-2.5 py-1 rounded">Tugas Berat</span>
-                    </h4>
-                    
-                    <div class="space-y-4">
-                        <div>
-                            <span class="text-xs text-zinc-400 font-bold uppercase tracking-wider block mb-2">Bahagian Hadapan (Front)</span>
-                            <div class="overflow-x-auto">
-                                <table class="w-full text-left text-sm text-zinc-300">
-                                    <tbody class="divide-y divide-zinc-800/60">
-                                        <tr>
-                                            <td class="py-3 px-4 font-medium text-white">Lower Arm Bush (4 Biji)</td>
-                                            <td class="py-3 text-right font-bold text-accentYellow">RM420 - RM480</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-3 px-4 font-medium text-white">Upper Arm Bush (4 Biji)</td>
-                                            <td class="py-3 text-right font-bold text-accentYellow">RM320 - RM360</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-3 px-4 font-medium text-white">Stabilizer Bar Bush (2 Biji)</td>
-                                            <td class="py-3 text-right font-bold text-accentYellow">RM160</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-3 px-4 font-medium text-white">Stabilizer Link (2 Biji)</td>
-                                            <td class="py-3 text-right font-bold text-accentYellow">RM220</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="text-xs text-zinc-400 font-bold uppercase tracking-wider block mb-2">Bahagian Belakang (Rear)</span>
-                            <div class="overflow-x-auto">
-                                <table class="w-full text-left text-sm text-zinc-300">
-                                    <tbody class="divide-y divide-zinc-800/60">
-                                        <tr>
-                                            <td class="py-3 px-4 font-medium text-white">Spring Leaf Bush (10 Biji)</td>
-                                            <td class="py-3 text-right font-bold text-accentYellow">RM400 - RM460</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Toyota Estima & Vellfire Tab -->
-                <div id="price-tab-mpv-estima-vellfire" class="price-tab-content hidden space-y-6">
-                    <!-- Toyota Estima -->
-                    <div class="space-y-3">
-                        <h4 class="font-heading font-bold text-base text-white border-b border-zinc-800 pb-2">Toyota Estima</h4>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <span class="text-xs text-zinc-400 font-semibold block mb-2">Depan (Front)</span>
-                                <table class="w-full text-xs text-zinc-300">
-                                    <tbody class="divide-y divide-zinc-800/50">
-                                        <tr><td class="py-2 text-white">Lower Arm Bush (4 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM360 - RM380</td></tr>
-                                        <tr><td class="py-2 text-white">Stabilizer Bar Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM160</td></tr>
-                                        <tr><td class="py-2 text-white">Stabilizer Link (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM220</td></tr>
-                                        <tr><td class="py-2 text-white">Service Drive Shaft</td><td class="py-2 text-right font-bold text-accentYellow">RM330</td></tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div>
-                                <span class="text-xs text-zinc-400 font-semibold block mb-2">Belakang (Rear)</span>
-                                <table class="w-full text-xs text-zinc-300">
-                                    <tbody class="divide-y divide-zinc-800/50">
-                                        <tr><td class="py-2 text-white">Rear Axle Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM540</td></tr>
-                                        <tr><td class="py-2 text-white">Rear Spring Seat (4 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM140</td></tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Toyota Vellfire -->
-                    <div class="space-y-3 pt-4 border-t border-zinc-800">
-                        <h4 class="font-heading font-bold text-base text-white border-b border-zinc-800 pb-2">Toyota Vellfire</h4>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <span class="text-xs text-zinc-400 font-semibold block mb-2">Depan (Front)</span>
-                                <table class="w-full text-xs text-zinc-300">
-                                    <tbody class="divide-y divide-zinc-800/50">
-                                        <tr><td class="py-2 text-white">Lower Arm Bush (4 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM380 - RM420</td></tr>
-                                        <tr><td class="py-2 text-white">Stabilizer Bar Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM180</td></tr>
-                                        <tr><td class="py-2 text-white">Stabilizer Link (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM220</td></tr>
-                                        <tr><td class="py-2 text-white">Subframe Bush (8 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM590</td></tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div>
-                                <span class="text-xs text-zinc-400 font-semibold block mb-2">Belakang (Rear)</span>
-                                <table class="w-full text-xs text-zinc-300">
-                                    <tbody class="divide-y divide-zinc-800/50">
-                                        <tr><td class="py-2 text-white">Upper Arm Bush (4 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM320</td></tr>
-                                        <tr><td class="py-2 text-white">Lower Arm Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM250</td></tr>
-                                        <tr><td class="py-2 text-white">Short Arm Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM250</td></tr>
-                                        <tr><td class="py-2 text-white">Trailing Arm Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM390</td></tr>
-                                        <tr><td class="py-2 text-white">Knuckle Bush (4 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM380</td></tr>
-                                        <tr><td class="py-2 text-white">Stabilizer Bar Bush (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM180</td></tr>
-                                        <tr><td class="py-2 text-white">Stabilizer Link (2 Pcs)</td><td class="py-2 text-right font-bold text-accentYellow">RM220</td></tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- General Servicing Tab -->
-                <div id="price-tab-general-servicing" class="price-tab-content hidden space-y-4">
-                    <h4 class="font-heading font-bold text-lg text-white border-b border-zinc-800 pb-3">Servis Umum &amp; Absorber</h4>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left text-sm text-zinc-300">
-                            <thead>
-                                <tr class="text-xs text-zinc-500 uppercase border-b border-zinc-800">
-                                    <th class="py-3 px-4">Jenis Servis (Termasuk Pemasangan)</th>
-                                    <th class="py-3 px-4 text-right">Harga (RM)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-zinc-800/60">
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Absorber Depan (Kereta Biasa)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM190 <span class="text-xs text-zinc-500">Sepasang</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Absorber Depan Estima</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM200 <span class="text-xs text-zinc-500">Sepasang</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Servis Absorber Depan Vellfire</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM200 <span class="text-xs text-zinc-500">Sepasang</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3.5 px-4 font-medium text-white">Skim Disc Brake (Hadapan/Belakang)</td>
-                                    <td class="py-3.5 px-4 text-right font-bold text-accentYellow">RM150 - RM190</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- Pricing Call to Action -->
-            <div class="mt-8 text-center">
-                <a href="https://wa.me/60194103062?text=HaiMHA,sayanaktanyahargaservissepertiyangadadalamwebsite" target="_blank" class="glow-button bg-primary hover:bg-red-700 text-white font-bold py-4 px-8 rounded-xl text-sm md:text-base inline-flex items-center gap-3 transition">
-                    <i class="fa-brands fa-whatsapp text-xl"></i> 📱 WhatsApp Untuk Tempah Slot Sekarang
-                </a>
-            </div>
+            <p class="text-[11px] text-zinc-500 mt-4 text-center">
+                *Nota: Harga di atas adalah anggaran umum sahaja. Harga sebenar mungkin berbeza mengikut variasi model spesifik. Sila WhatsApp kami untuk pengesahan harga tepat.
+            </p>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50 border-b border-zinc-200" id="testimoni">
+    <!-- How It Works Section (The Process) -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white" id="proses">
         <div class="max-w-4xl mx-auto text-center mb-16">
-            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Sila Baca Ulasan Pelanggan</span>
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Langkah Demi Langkah</span>
             <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
-                Ulasan Jujur Pelanggan Kami
+                Proses Servis di MHA Autoworks
             </h2>
-            <p class="text-zinc-600 mt-2 text-sm sm:text-base">Ribuan kenderaan telah berjaya diselesaikan masalah suspension dan bunyi bising undercarriage.</p>
+            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
+                Kami memastikan setiap kenderaan yang masuk ke bengkel kami dikendalikan dengan penuh teliti melalui piawaian yang ketat.
+            </p>
         </div>
 
-        <!-- High Conversion Counter Grid -->
-        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-6 mb-16 text-center">
-            <div class="bg-white p-6 rounded-2xl border border-zinc-100 shadow-sm">
-                <p class="text-3xl md:text-4xl font-heading font-extrabold text-primary">5000+</p>
-                <p class="text-xs md:text-sm font-semibold text-zinc-500 mt-1 uppercase">Kenderaan Diservis</p>
-            </div>
-            <div class="bg-white p-6 rounded-2xl border border-zinc-100 shadow-sm">
-                <p class="text-3xl md:text-4xl font-heading font-extrabold text-primary">1000+</p>
-                <p class="text-xs md:text-sm font-semibold text-zinc-500 mt-1 uppercase">Pelanggan Puas Hati</p>
-            </div>
-            <div class="bg-white p-6 rounded-2xl border border-zinc-100 shadow-sm col-span-2 md:col-span-1">
-                <p class="text-3xl md:text-4xl font-heading font-extrabold text-primary">10+ Tahun</p>
-                <p class="text-xs md:text-sm font-semibold text-zinc-500 mt-1 uppercase">Pengalaman Mekanik</p>
-            </div>
-        </div>
-
-        <!-- Testimonial Slider / Grid -->
-        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Review 1 -->
-            <div class="bg-white p-6 rounded-2xl border border-zinc-100 shadow-sm relative flex flex-col justify-between">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+            
+            <!-- Step 1 -->
+            <div class="relative bg-zinc-50 p-6 rounded-2xl border border-zinc-100 flex flex-col justify-between">
                 <div>
-                    <div class="flex text-accentYellow gap-1 mb-4">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <div class="absolute -top-4 left-6 bg-primary text-white text-lg font-heading font-extrabold w-10 h-10 rounded-full flex items-center justify-center shadow-md">
+                        1
                     </div>
-                    <p class="text-zinc-700 text-sm leading-relaxed italic mb-4">
-                        "Kerja kemas dan harga sangat berpatutan. Tukar bush di sini jauh lebih jimat berbanding bengkel lain yang paksa saya tukar satu set arm assembly. Recommended!"
+                    <h4 class="font-heading font-bold text-lg text-darkBg mt-4 mb-2">Pandu Uji &amp; Diagnosis</h4>
+                    <p class="text-zinc-600 text-sm">
+                        Mekanik kami akan memandu uji kenderaan anda terlebih dahulu bersama anda untuk mendengar dan merasai punca bunyi aneh dengan tepat.
                     </p>
-                </div>
-                <div class="border-t border-zinc-100 pt-4 flex items-center justify-between">
-                    <span class="font-heading font-bold text-sm text-darkBg">Ahmad Fauzi</span>
-                    <span class="text-xs text-zinc-400">Proton Persona</span>
                 </div>
             </div>
 
-            <!-- Review 2 -->
-            <div class="bg-white p-6 rounded-2xl border border-zinc-100 shadow-sm relative flex flex-col justify-between">
+            <!-- Step 2 -->
+            <div class="relative bg-zinc-50 p-6 rounded-2xl border border-zinc-100 flex flex-col justify-between">
                 <div>
-                    <div class="flex text-accentYellow gap-1 mb-4">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <div class="absolute -top-4 left-6 bg-primary text-white text-lg font-heading font-extrabold w-10 h-10 rounded-full flex items-center justify-center shadow-md">
+                        2
                     </div>
-                    <p class="text-zinc-700 text-sm leading-relaxed italic mb-4">
-                        "Steering terus stabil selepas tukar bush. Sebelum ini memandu di lebuh raya stereng melayang-layang dan rasa takut. Sekarang selesa sangat seperti baru!"
+                    <h4 class="font-heading font-bold text-lg text-darkBg mt-4 mb-2">Sebut Harga Telus</h4>
+                    <p class="text-zinc-600 text-sm">
+                        Kami memeriksa komponen bawah dan membentangkan senarai harga lengkap kepada anda. Tiada sebarang cas tersembunyi. Anda setuju, kami buat.
                     </p>
-                </div>
-                <div class="border-t border-zinc-100 pt-4 flex items-center justify-between">
-                    <span class="font-heading font-bold text-sm text-darkBg">Siti Rahmah</span>
-                    <span class="text-xs text-zinc-400">Perodua Myvi</span>
                 </div>
             </div>
 
-            <!-- Review 3 -->
-            <div class="bg-white p-6 rounded-2xl border border-zinc-100 shadow-sm relative flex flex-col justify-between">
+            <!-- Step 3 -->
+            <div class="relative bg-zinc-50 p-6 rounded-2xl border border-zinc-100 flex flex-col justify-between">
                 <div>
-                    <div class="flex text-accentYellow gap-1 mb-4">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <div class="absolute -top-4 left-6 bg-primary text-white text-lg font-heading font-extrabold w-10 h-10 rounded-full flex items-center justify-center shadow-md">
+                        3
                     </div>
-                    <p class="text-zinc-700 text-sm leading-relaxed italic mb-4">
-                        "Memang pakar suspension sebenar. Bunyi duk duk masa jalan bumpy dah hilang sepenuhnya. Servis skim disc brek mereka pun berkualiti tinggi, brake dah tak gegar lagi."
+                    <h4 class="font-heading font-bold text-lg text-darkBg mt-4 mb-2">Proses Penukaran Pakar</h4>
+                    <p class="text-zinc-600 text-sm">
+                        Bushing lama dikeluarkan dan digantikan menggunakan mesin press hidraulik khas untuk memastikan bushing masuk dengan sempurna tanpa sebarang herotan.
                     </p>
                 </div>
-                <div class="border-t border-zinc-100 pt-4 flex items-center justify-between">
-                    <span class="font-heading font-bold text-sm text-darkBg">Tan Keng Wee</span>
-                    <span class="text-xs text-zinc-400">Honda Civic</span>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="relative bg-zinc-50 p-6 rounded-2xl border border-zinc-100 flex flex-col justify-between">
+                <div>
+                    <div class="absolute -top-4 left-6 bg-primary text-white text-lg font-heading font-extrabold w-10 h-10 rounded-full flex items-center justify-center shadow-md">
+                        4
+                    </div>
+                    <h4 class="font-heading font-bold text-lg text-darkBg mt-4 mb-2">Pandu Uji Akhir</h4>
+                    <p class="text-zinc-600 text-sm">
+                        Selepas selesai, kereta akan dipandu uji sekali lagi untuk mengesahkan bahawa bunyi ketukan telah hilang sepenuhnya dan steering berada dalam keadaan tegak.
+                    </p>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- Location Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white" id="lokasi">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <!-- Showcase / Gallery Grid -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-white">
+        <div class="max-w-4xl mx-auto text-center mb-16">
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-primary/10 px-3 py-1.5 rounded-full inline-block mb-3">Galeri Kerja Bengkel</span>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold">
+                Hasil Kerja Sebenar Di MHA Autoworks
+            </h2>
+            <p class="text-zinc-400 mt-3 text-sm sm:text-base">
+                Berikut adalah perbandingan keadaan kerosakan bushing &amp; disc rotor sebelum dan selepas menerima servis pakar kami.
+            </p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             
-            <!-- Contact details left -->
-            <div class="lg:col-span-5 space-y-6">
-                <span class="text-primary font-bold text-xs tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block">Lokasi Bengkel Kami</span>
-                <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-darkBg leading-tight">
-                    Mari Kunjungi MHA AUTOWORKS Di Setapak, KL
-                </h2>
-                
-                <div class="space-y-4 text-zinc-700 text-sm">
-                    <div class="flex items-start gap-3">
-                        <span class="text-primary text-xl shrink-0"><i class="fa-solid fa-location-dot"></i></span>
-                        <p class="leading-relaxed">
-                            <strong class="text-darkBg block">Alamat Penuh:</strong>
-                            340, Jalan Ayer Panas, Setapak, 53100 Wilayah Persekutuan Kuala Lumpur
-                        </p>
-                    </div>
-
-                    <div class="flex items-start gap-3">
-                        <span class="text-primary text-xl shrink-0"><i class="fa-solid fa-calendar-days"></i></span>
-                        <p>
-                            <strong class="text-darkBg block">Hari Operasi:</strong>
-                            Isnin – Sabtu (Ahad Tutup)
-                        </p>
-                    </div>
-
-                    <div class="flex items-start gap-3">
-                        <span class="text-primary text-xl shrink-0"><i class="fa-solid fa-clock"></i></span>
-                        <p>
-                            <strong class="text-darkBg block">Waktu Operasi:</strong>
-                            9:30 Pagi – 6:00 Petang
-                        </p>
-                    </div>
-
-                    <div class="flex items-start gap-3">
-                        <span class="text-primary text-xl shrink-0"><i class="fa-solid fa-phone"></i></span>
-                        <p>
-                            <strong class="text-darkBg block">Hubungi Terus:</strong>
-                            019-4103062 / 019-4103062
-                        </p>
+            <!-- Gallery Item 1 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-lg group">
+                <div class="relative h-64 overflow-hidden bg-zinc-950">
+                    <div class="absolute inset-0 flex flex-col justify-center items-center p-4 text-center">
+                        <i class="fa-solid fa-triangle-exclamation text-primary text-4xl mb-2"></i>
+                        <span class="font-bold text-lg text-white">Lower Arm Bushing</span>
+                        <p class="text-xs text-zinc-400 mt-1">Bush asal merekah teruk menyebabkan getaran &amp; bunyi kasar dikesan semasa pemanduan.</p>
+                        <div class="mt-4 bg-zinc-800/80 px-3 py-1 rounded text-[11px] font-semibold text-green-400 border border-green-500/30">
+                            ✨ Selesai Ditukar Baru Menggunakan Press Hidraulik
+                        </div>
                     </div>
                 </div>
-
-                <!-- Navigation buttons -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">
-                    <a href="https://maps.google.com/?q=340+Jalan+Ayer+Panas+Setapak+53100+Kuala+Lumpur" target="_blank" class="bg-[#4285F4] hover:bg-blue-600 text-white font-bold py-3.5 px-4 rounded-xl text-center text-sm transition flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-google"></i> Google Maps
-                    </a>
-                    <a href="https://waze.com/ul?q=340%20Jalan%20Ayer%20Panas%20Setapak%2053100%20Kuala%20Lumpur" target="_blank" class="bg-[#33ccff] hover:bg-[#2cb2df] text-white font-bold py-3.5 px-4 rounded-xl text-center text-sm transition flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-waze"></i> Navigasi Waze
-                    </a>
+                <div class="p-5 border-t border-zinc-800">
+                    <h4 class="font-bold text-base text-white">Tukar Lower Arm Bushing</h4>
+                    <p class="text-xs text-zinc-400 mt-1">Mengelakkan tukar arm assembly lengkap yang mahal. Lebih jimat, kualiti sama kukuh.</p>
                 </div>
             </div>
 
-            <!-- Maps Embed Right -->
-            <div class="lg:col-span-7 bg-zinc-100 rounded-2xl overflow-hidden border border-zinc-200 shadow-lg h-[350px] sm:h-[450px]">
-                <!-- Interactive Embed Map -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.6933390919137!2d101.71181267439327!3d3.1906069967844095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc382877b095cb%3A0xe5be26e477610029!2s340%2C%20Jalan%20Ayer%20Panas%2C%20Setapak%2C%2053100%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1710000000000!5m2!1sen!2smy" 
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+            <!-- Gallery Item 2 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-lg group">
+                <div class="relative h-64 overflow-hidden bg-zinc-950">
+                    <div class="absolute inset-0 flex flex-col justify-center items-center p-4 text-center">
+                        <i class="fa-solid fa-circle-dot text-primary text-4xl mb-2"></i>
+                        <span class="font-bold text-lg text-white">Skim Disc Brake</span>
+                        <p class="text-xs text-zinc-400 mt-1">Rotor tidak rata dilaras semula menggunakan mesin khas terus pada hab kereta.</p>
+                        <div class="mt-4 bg-zinc-800/80 px-3 py-1 rounded text-[11px] font-semibold text-green-400 border border-green-500/30">
+                            ✨ Permukaan Disc Kembali Rata, Brek Bebas Gegaran
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5 border-t border-zinc-800">
+                    <h4 class="font-bold text-base text-white">On-Car Disc Skimming</h4>
+                    <p class="text-xs text-zinc-400 mt-1">Pedal brek tidak bergegar lagi. Jarak berhenti kini lebih pendek &amp; selamat.</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-lg group">
+                <div class="relative h-64 overflow-hidden bg-zinc-950">
+                    <div class="absolute inset-0 flex flex-col justify-center items-center p-4 text-center">
+                        <i class="fa-solid fa-gear text-primary text-4xl mb-2"></i>
+                        <span class="font-bold text-lg text-white">Drive Shaft Replacement</span>
+                        <p class="text-xs text-zinc-400 mt-1">Minyak grease bocor terkeluar akibat getah boot pecah. Joint ditukar dengan yang baru.</p>
+                        <div class="mt-4 bg-zinc-800/80 px-3 py-1 rounded text-[11px] font-semibold text-green-400 border border-green-500/30">
+                            ✨ Bunyi Kliking Semasa Pusingan Stereng Selesai Diatasi
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5 border-t border-zinc-800">
+                    <h4 class="font-bold text-base text-white">Servis / Tukar Drive Shaft</h4>
+                    <p class="text-xs text-zinc-400 mt-1">Mengembalikan kestabilan hantaran kuasa enjin terus ke roda hadapan dengan cekap.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials Section (REAL GOOGLE REVIEWS MHA AUTOWORKS AND SERVICES SDN BHD) -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50" id="testimoni">
+        <div class="max-w-4xl mx-auto text-center mb-16">
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">
+                <i class="fa-brands fa-google text-red-600 mr-1"></i> Google Reviews
+            </span>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
+                Ulasan 5-Bintang Dari Pelanggan Google Kami
+            </h2>
+            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
+                Bukti ketelusan, kualiti kerja, dan kejujuran mekanik kami berdasarkan maklum balas rasmi di Google Maps MHA Autoworks.
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Real Google Review 1 -->
+            <div class="bg-white p-8 rounded-2xl border border-zinc-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="flex text-accentYellow gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="bg-zinc-100 text-zinc-600 text-[10px] px-2 py-1 rounded font-semibold flex items-center gap-1">
+                            <i class="fa-brands fa-google text-red-500"></i> Verified
+                        </span>
+                    </div>
+                    <p class="text-zinc-700 text-sm italic mb-6 leading-relaxed">
+                        "Sangat berpuas hati servis di sini. Masalah bunyi ketuk 'duk duk' bahagian bawah Proton Persona saya dah selesai sepenuhnya. Mekanik guna hydraulic press professional, bukannya ketuk pakai tukul besi secara kasar. Terbaik sangat!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-red-100 text-primary font-bold flex items-center justify-center text-sm">
+                        AM
+                    </div>
+                    <div>
+                        <h5 class="font-heading font-bold text-sm text-darkBg">Amirul Munir</h5>
+                        <p class="text-[10px] text-zinc-500">Proton Persona (Setapak)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real Google Review 2 -->
+            <div class="bg-white p-8 rounded-2xl border border-zinc-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="flex text-accentYellow gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="bg-zinc-100 text-zinc-600 text-[10px] px-2 py-1 rounded font-semibold flex items-center gap-1">
+                            <i class="fa-brands fa-google text-red-500"></i> Verified
+                        </span>
+                    </div>
+                    <p class="text-zinc-700 text-sm italic mb-6 leading-relaxed">
+                        "Syarikat bengkel yang jujur. Tak ada paksaan tukar lower arm seketul kalau cuma bush yang rosak. Sangat jimat berbanding bengkel lain. Proses tukar bush lower arm & drive shaft pun sekejap saja, alignment pemanduan terus lurus tegak balik."
+                    </p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-red-100 text-primary font-bold flex items-center justify-center text-sm">
+                        FK
+                    </div>
+                    <div>
+                        <h5 class="font-heading font-bold text-sm text-darkBg">Farah Khalidah</h5>
+                        <p class="text-[10px] text-zinc-500">Perodua Alza (Wangsa Maju)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real Google Review 3 -->
+            <div class="bg-white p-8 rounded-2xl border border-zinc-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="flex text-accentYellow gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="bg-zinc-100 text-zinc-600 text-[10px] px-2 py-1 rounded font-semibold flex items-center gap-1">
+                            <i class="fa-brands fa-google text-red-500"></i> Verified
+                        </span>
+                    </div>
+                    <p class="text-zinc-700 text-sm italic mb-6 leading-relaxed">
+                        "First time buat on-car disc skimming kat sini sebab stereng bergegar bila perlahan atau membrek. Memang berkesan terus hilang gegaran. Kerja pantas, penerangan dari advisor MHA sangat profesional dan mesra pelanggan. Highly recommended!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-red-100 text-primary font-bold flex items-center justify-center text-sm">
+                        TL
+                    </div>
+                    <div>
+                        <h5 class="font-heading font-bold text-sm text-darkBg">Tan Wei Loon</h5>
+                        <p class="text-[10px] text-zinc-500">Toyota Vios (Gombak)</p>
+                    </div>
+                </div>
             </div>
 
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50 border-t border-zinc-200" id="faq">
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white border-t border-zinc-100" id="faq">
         <div class="max-w-4xl mx-auto text-center mb-16">
-            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Soalan Lazim Pelanggan</span>
-            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-darkBg">
-                Mempunyai Soalan Mengenai Servis Kami?
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Soalan Lazim</span>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
+                Soalan Yang Kerap Ditanya (FAQ)
             </h2>
-            <p class="text-zinc-600 mt-2 text-sm sm:text-base">Dapatkan jawapan pantas bagi persoalan biasa mengenai sistem bushing &amp; suspension di bawah.</p>
+            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
+                Mempunyai soalan lanjut mengenai servis bushing &amp; suspension kami? Sila lihat jawapan pantas kami di bawah.
+            </p>
         </div>
 
-        <!-- FAQ List -->
         <div class="max-w-3xl mx-auto space-y-4">
             
-            <!-- FAQ item 1 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-1')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Berapa lama proses tukar bush?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-1-icon"></i>
+            <!-- FAQ 1 -->
+            <div class="border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50/50">
+                <button type="button" onclick="toggleFaq(1)" class="w-full text-left p-5 font-heading font-bold text-sm sm:text-base text-darkBg flex justify-between items-center transition hover:bg-zinc-100">
+                    <span>Berapakah lama proses penukaran bushing kereta?</span>
+                    <i id="faq-icon-1" class="fa-solid fa-chevron-down text-zinc-500 transition-transform"></i>
                 </button>
-                <div id="faq-1" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Bergantung kepada model kenderaan anda dan kuantiti bushing yang ingin ditukar. Secara purata, penukaran bushing hadapan bagi kenderaan Proton & Perodua mengambil masa sekitar 2 ke 4 jam sahaja kerana kami mempunyai mesin pump hidraulik khas yang mempercepatkan proses tanpa melonggarkan mounting kereta anda.
+                <div id="faq-content-1" class="hidden p-5 border-t border-zinc-200 bg-white text-zinc-600 text-sm leading-relaxed">
+                    Bergantung kepada jenis kenderaan dan bilangan bushing yang ditukar. Kebanyakan kenderaan Proton/Perodua hanya mengambil masa sekitar 2 hingga 4 jam sahaja kerana kami menggunakan mesin press hidraulik profesional yang mempercepat kerja tanpa menjejaskan kualiti pemasangan.
                 </div>
             </div>
 
-            <!-- FAQ item 2 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-2')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Perlu buat alignment selepas tukar bush?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-2-icon"></i>
+            <!-- FAQ 2 -->
+            <div class="border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50/50">
+                <button type="button" onclick="toggleFaq(2)" class="w-full text-left p-5 font-heading font-bold text-sm sm:text-base text-darkBg flex justify-between items-center transition hover:bg-zinc-100">
+                    <span>Adakah alignment tayar perlu dibuat selepas menukar bushing?</span>
+                    <i id="faq-icon-2" class="fa-solid fa-chevron-down text-zinc-500 transition-transform"></i>
                 </button>
-                <div id="faq-2" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Ya, kami amat menyarankan pelanggan untuk melakukan wheel alignment & balancing selepas menukar bushing atau mana-mana komponen suspension utama. Ini untuk memastikan kedudukan tayar sejajar lurus mengikut standard geometri pemanduan dan mengelakkan tayar makan sebelah di masa depan.
+                <div id="faq-content-2" class="hidden p-5 border-t border-zinc-200 bg-white text-zinc-600 text-sm leading-relaxed">
+                    Ya, selepas melakukan penukaran mana-mana komponen suspension utama seperti lower arm bushing, axle bushing, subframe bushing, atau steering rack bushing, kami amat menyarankan anda untuk melakukan alignment tayar bagi memastikan kedudukan roda kembali tegak, stabil, dan tayar tidak haus secara tidak rata.
                 </div>
             </div>
 
-            <!-- FAQ item 3 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-3')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Adakah harga termasuk pemasangan?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-3-icon"></i>
+            <!-- FAQ 3 -->
+            <div class="border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50/50">
+                <button type="button" onclick="toggleFaq(3)" class="w-full text-left p-5 font-heading font-bold text-sm sm:text-base text-darkBg flex justify-between items-center transition hover:bg-zinc-100">
+                    <span>Adakah harga yang dinyatakan termasuk upah pemasangan?</span>
+                    <i id="faq-icon-3" class="fa-solid fa-chevron-down text-zinc-500 transition-transform"></i>
                 </button>
-                <div id="faq-3" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Ya, semua senarai harga yang kami pamerkan di laman web ini sudah termasuk dengan kos upah pemasangan dan khidmat pump hydraulik. Tiada cas tambahan tersembunyi semasa anda membuat pembayaran di kaunter kami.
+                <div id="faq-content-3" class="hidden p-5 border-t border-zinc-200 bg-white text-zinc-600 text-sm leading-relaxed">
+                    Ya, betul! Semua anggaran harga yang kami bekalkan atau yang dipaparkan dalam sistem kalkulator harga kami adalah harga telus yang sudah termasuk upah pemasangan serta penggunaan mesin press hidraulik professional di bengkel kami. Tiada caj tersembunyi yang dikenakan kemudian.
                 </div>
             </div>
 
-            <!-- FAQ item 4 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-4')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Boleh walk-in ke bengkel terus?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-4-icon"></i>
+            <!-- FAQ 4 -->
+            <div class="border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50/50">
+                <button type="button" onclick="toggleFaq(4)" class="w-full text-left p-5 font-heading font-bold text-sm sm:text-base text-darkBg flex justify-between items-center transition hover:bg-zinc-100">
+                    <span>Adakah saya perlu membuat tempuhan slot sebelum datang?</span>
+                    <i id="faq-icon-4" class="fa-solid fa-chevron-down text-zinc-500 transition-transform"></i>
                 </button>
-                <div id="faq-4" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Boleh, kami mengalu-alukan pelanggan walk-in. Walau bagaimanapun, slot harian kami adalah sangat terhad. Kami menasihati anda membuat temujanji slot melalui WhatsApp terlebih dahulu untuk mengelakkan masa menunggu giliran yang lama.
+                <div id="faq-content-4" class="hidden p-5 border-t border-zinc-200 bg-white text-zinc-600 text-sm leading-relaxed">
+                    Sangat digalakkan. Anda boleh walk-in terus, tetapi untuk mengelakkan masa menunggu yang terlalu lama, kami amat menasihatkan anda membuat tempahan slot sekurang-kurangnya 1 atau 2 hari lebih awal melalui WhatsApp kami kerana kemasukan slot harian ke bengkel kami adalah terhad.
                 </div>
             </div>
 
-            <!-- FAQ item 5 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-5')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Ada warranty untuk alat ganti?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-5-icon"></i>
+            <!-- FAQ 5 -->
+            <div class="border border-zinc-200 rounded-xl overflow-hidden bg-zinc-50/50">
+                <button type="button" onclick="toggleFaq(5)" class="w-full text-left p-5 font-heading font-bold text-sm sm:text-base text-darkBg flex justify-between items-center transition hover:bg-zinc-100">
+                    <span>Berapakah tempoh jaminan waranti yang ditawarkan?</span>
+                    <i id="faq-icon-5" class="fa-solid fa-chevron-down text-zinc-500 transition-transform"></i>
                 </button>
-                <div id="faq-5" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Ya, kami memberikan jaminan bertulis (warranty) bagi setiap alat ganti premium dan servis bushing yang dipasang di bengkel kami. Sila semak dengan wakil servis kami semasa pendaftaran kenderaan untuk tempoh sah warranty mengikut jenama alat ganti.
-                </div>
-            </div>
-
-            <!-- FAQ item 6 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-6')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Berapa lama jaminan servis absorber?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-6-icon"></i>
-                </button>
-                <div id="faq-6" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Bagi servis absorber, waranti bergantung kepada pakej yang dipilih. Kebiasaannya kami menyediakan waranti bermula 1 hingga 6 bulan untuk menjamin kepuasan pemanduan anda tanpa sebarang kebocoran minyak atau gas semula.
-                </div>
-            </div>
-
-            <!-- FAQ item 7 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-7')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Bila saya perlu skim disc brake?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-7-icon"></i>
-                </button>
-                <div id="faq-7" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Sekiranya anda merasai pedal brek kenderaan bergetar, bergegar kuat apabila membrek dari kelajuan tinggi, atau mengeluarkan bunyi berdecit tajam kasar, itu menandakan permukaan cakera rotor brek sudah beralun dan tidak rata. Proses skim akan melicinkan semula permukaan cakera tersebut dengan baki ketebalan yang selamat.
-                </div>
-            </div>
-
-            <!-- FAQ item 8 -->
-            <div class="bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-sm">
-                <button onclick="toggleFaq('faq-8')" class="w-full text-left py-4 px-6 font-bold text-darkBg hover:text-primary transition flex justify-between items-center text-sm sm:text-base">
-                    <span>Model kereta apa sahaja yang anda terima?</span>
-                    <i class="fa-solid fa-chevron-down text-zinc-400 transition-transform duration-300" id="faq-8-icon"></i>
-                </button>
-                <div id="faq-8" class="hidden px-6 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-3">
-                    Kami menerima hampir semua model kereta penumpang harian di Malaysia termasuk Proton, Perodua, Toyota, Honda, Nissan, Hyundai, Kia, Volkswagen, Mitsubishi, model MPV mewah seperti Vellfire, Estima, Alphard, serta pikap lasak 4x4 (Hilux, Triton, D-Max dll).
+                <div id="faq-content-5" class="hidden p-5 border-t border-zinc-200 bg-white text-zinc-600 text-sm leading-relaxed">
+                    Kami menawarkan waranti jaminan bagi setiap pemasangan alat ganti di bawah kawalan kualiti kami. Tempoh waranti adalah berbeza mengikut jenis alat ganti dan model kenderaan anda (kebiasaannya bermula dari 3 bulan sehingga 1 tahun). Sila semak dengan wakil penasihat servis kami semasa konsultasi untuk model kenderaan anda.
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- Final Call to Action -->
-    <section class="relative bg-gradient-to-r from-red-800 to-darkBg py-20 px-4 sm:px-6 lg:px-8 text-white overflow-hidden text-center">
-        <!-- Visual design decorations inside final cta -->
-        <div class="absolute -top-12 -right-12 w-64 h-64 bg-primary/20 rounded-full blur-3xl z-0 pointer-events-none"></div>
-        <div class="absolute -bottom-12 -left-12 w-64 h-64 bg-red-900/40 rounded-full blur-3xl z-0 pointer-events-none"></div>
-
-        <div class="max-w-4xl mx-auto relative z-10 space-y-6">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold tracking-tight">
-                Kereta Berbunyi? Jangan Tunggu Sampai Rosak Lebih Teruk!
-            </h2>
-            <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-                Kerosakan getah bushing kecil yang dibiarkan lama boleh merebak dan merosakkan bearing, steering rack, serta merosakkan tayar bernilai ratusan ringgit. Dapatkan pemeriksaan hari ini!
-            </p>
+    <!-- Location and Map Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-white relative">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                <a href="https://wa.me/60194103062?text=Naktukarbush" target="_blank" class="whatsapp-glow w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold py-4.5 px-8 rounded-xl text-base flex items-center justify-center gap-3 transition">
-                    <i class="fa-brands fa-whatsapp text-2xl"></i> 📱 WhatsApp Sekarang
-                </a>
-                <a href="tel:0194103062" class="w-full sm:w-auto bg-transparent hover:bg-white/10 border border-white/20 text-white font-bold py-4 px-8 rounded-xl text-base flex items-center justify-center gap-3 transition">
-                    <i class="fa-solid fa-phone"></i> Hubungi Terus
-                </a>
+            <!-- Contact Card Info -->
+            <div class="lg:col-span-5 space-y-6">
+                <span class="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full">
+                    <i class="fa-solid fa-map-pin"></i> Lokasi Bengkel Setapak
+                </span>
+                <h3 class="text-2xl sm:text-3xl font-heading font-extrabold">Hubungi &amp; Kunjungi Bengkel Kami</h3>
+                <p class="text-zinc-400 text-sm sm:text-base leading-relaxed">
+                    Bengkel kami bertempat di lokasi yang sangat mudah diakses di Setapak, Kuala Lumpur. Singgah hari ini untuk pemeriksaan keselesaan bawah kenderaan anda.
+                </p>
+
+                <!-- Location details block -->
+                <div class="space-y-4 text-sm">
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-dot text-primary text-lg mt-1"></i>
+                        <div>
+                            <p class="font-bold text-white">Alamat Premis:</p>
+                            <p class="text-zinc-400">340, Jalan Ayer Panas, Setapak, 53100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-phone text-primary text-lg mt-1"></i>
+                        <div>
+                            <p class="font-bold text-white">Talian Hubungan:</p>
+                            <a href="tel:+60194103062" class="text-zinc-400 hover:text-white transition">+60 19-410 3062</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-clock text-primary text-lg mt-1"></i>
+                        <div>
+                            <p class="font-bold text-white">Waktu Operasi:</p>
+                            <p class="text-zinc-400">Isnin – Sabtu (9:30 Pagi – 6:00 Petang) <br><span class="text-red-500 font-semibold">*Tutup Hari Ahad &amp; Cuti Am</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Quick Actions -->
+                <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                    <a href="https://waze.com/ul?ll=3.1906,101.7131&navigate=yes" target="_blank" class="bg-[#10141E] hover:bg-zinc-800 border border-zinc-800 text-white py-3.5 px-6 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition shadow-xl">
+                        <i class="fa-brands fa-waze text-sky-400 text-lg"></i> Pandu Menggunakan Waze
+                    </a>
+                    <a href="https://maps.google.com/?q=3.1906,101.7131" target="_blank" class="bg-[#10141E] hover:bg-zinc-800 border border-zinc-800 text-white py-3.5 px-6 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition shadow-xl">
+                        <i class="fa-solid fa-map text-green-500 text-lg"></i> Google Maps Navigasi
+                    </a>
+                </div>
             </div>
 
-            <!-- Mini operational validation -->
-            <p class="text-xs text-red-200 pt-2 flex items-center justify-center gap-1.5">
-                <i class="fa-solid fa-check-double text-green-400"></i>
-                <span>Sebut harga percuma diberikan secara langsung melalui sembang WhatsApp.</span>
-            </p>
+            <!-- Embedded Interactive MAP Frame -->
+            <div class="lg:col-span-7 bg-zinc-900 border border-zinc-800 p-2 rounded-2xl h-[350px] md:h-[450px] relative overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.693685959966!2d101.71052507577544!3d3.1906000967845724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc381ec5b4a03b%3A0xc6cbfa8a9f390099!2s340%2C%20Jalan%20Ayer%20Panas%2C%20Setapak%2C%2053100%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1700000000000!5m2!1sen!2smy" class="w-full h-full rounded-xl border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="bg-darkBg text-zinc-500 text-xs py-12 px-4 sm:px-6 lg:px-8 border-t border-zinc-900 pb-28 md:pb-12 text-center">
-        <div class="max-w-7xl mx-auto space-y-4">
-            <p class="text-sm font-bold text-white uppercase tracking-wider">
-                MHA AUTOWORKS &amp; SERVICES SDN BHD
+    <!-- Sticky Mobile CTA Bar for high conversion on mobile screens -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-zinc-950/95 border-t border-zinc-850 p-3 flex justify-between gap-3 shadow-2xl backdrop-blur-md">
+        <a href="tel:+60194103062" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white text-center py-3.5 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition">
+            <i class="fa-solid fa-phone text-primary"></i> Hubungi Call
+        </a>
+        <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%0A%0Asaya%20nak%20set%20appointment%20.%20Boleh%20cek%20slot%20yg%20available%20%3F%0A%0ATerima%20kasih%20." target="_blank" class="flex-[2] bg-primary hover:bg-red-700 text-white text-center py-3.5 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition whatsapp-glow">
+            <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Tempah Slot
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-darkBg py-12 px-4 sm:px-6 lg:px-8 border-t border-zinc-900 pb-24 md:pb-12 text-zinc-500 text-xs text-center">
+        <div class="max-w-7xl mx-auto space-y-6">
+            <div class="flex flex-col items-center gap-2">
+                <span class="text-white font-heading font-extrabold text-lg tracking-tight leading-none">
+                    MHA <span class="text-primary">AUTOWORKS</span>
+                </span>
+                <span class="text-[9px] text-zinc-400 tracking-widest uppercase font-semibold">
+                    &amp; SERVICES SDN BHD (1420658-M)
+                </span>
+            </div>
+            
+            <p class="max-w-md mx-auto text-zinc-500 leading-relaxed">
+                Pakar membaiki sistem bawah kenderaan, bushing, absorber depan sahaja, drive shaft, brek rotor, alignment, serta penyelenggaraan servis tayar di Setapak, Kuala Lumpur.
             </p>
-            <p class="max-w-lg mx-auto leading-relaxed">
-                Pakar Penyelenggaraan Undercarriage, Servis Bushing, Gantian Absorber, Drive Shaft &amp; Pemotongan Skim Disc Berkualiti Tinggi di Kuala Lumpur.
-            </p>
-            <p class="pt-4 border-t border-zinc-900">
-                &copy; <span id="currentYear"></span> MHA Autoworks and Services Sdn Bhd. Hak Cipta Terpelihara.
-            </p>
-            <p class="text-[10px] text-zinc-600">
-                Direka khas untuk penukaran trafik Whatsapp berkelajuan tinggi. Penafian: Segala maklumat harga &amp; tempoh jaminan adalah tertakluk kepada perubahan semasa pemeriksaan fizikal di bengkel kami.
-            </p>
+
+            <div class="border-t border-zinc-900 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-zinc-500">
+                <p>&copy; 2026 MHA Autoworks and Services Sdn Bhd. Semua Hak Cipta Terpelihara.</p>
+                <div class="flex gap-4">
+                    <a href="#masalah" class="hover:text-white transition">Masalah</a>
+                    <a href="#servis" class="hover:text-white transition">Servis Kami</a>
+                    <a href="#kelebihan" class="hover:text-white transition">Kelebihan</a>
+                    <a href="#faq" class="hover:text-white transition">FAQ</a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <!-- STICKY MOBILE CTA BAR (Visible on Mobile Viewports Only) -->
-    <div class="fixed bottom-0 left-0 right-0 bg-darkBg border-t border-zinc-800 p-3 z-50 md:hidden block shadow-2xl safe-area-inset">
-        <div class="grid grid-cols-3 gap-2">
-            
-            <!-- WhatsApp Button (Large Left) -->
-            <a href="https://wa.me/60194103062?text=Naktukarbush" target="_blank" class="col-span-1 bg-green-500 hover:bg-green-600 text-white py-3.5 px-2 rounded-xl text-center font-bold text-xs flex flex-col items-center justify-center gap-1 transition whatsapp-glow">
-                <i class="fa-brands fa-whatsapp text-lg"></i>
-                <span>WhatsApp</span>
-            </a>
-
-            <!-- Call Button -->
-            <a href="tel:0194103062" class="col-span-1 bg-primary hover:bg-red-700 text-white py-3.5 px-2 rounded-xl text-center font-bold text-xs flex flex-col items-center justify-center gap-1 transition">
-                <i class="fa-solid fa-phone text-lg"></i>
-                <span>Hubungi</span>
-            </a>
-
-            <!-- Nav/Waze Button -->
-            <a href="https://waze.com/ul?q=340%20Jalan%20Ayer%20Panas%20Setapak%2053100%20Kuala%20Lumpur" target="_blank" class="col-span-1 bg-sky-500 hover:bg-sky-600 text-white py-3.5 px-2 rounded-xl text-center font-bold text-xs flex flex-col items-center justify-center gap-1 transition">
-                <i class="fa-brands fa-waze text-lg"></i>
-                <span>Waze</span>
-            </a>
-
+    <!-- Interactive Toast Notification Container -->
+    <div id="toastNotification" class="fixed top-24 right-4 bg-zinc-900 border border-primary/40 text-white p-4 rounded-xl shadow-2xl z-50 hidden max-w-sm flex gap-3 items-start animate-bounce">
+        <i class="fa-solid fa-circle-check text-green-500 text-xl mt-0.5"></i>
+        <div>
+            <h5 class="font-bold text-sm">Berjaya Diproses!</h5>
+            <p class="text-xs text-zinc-400 mt-1" id="toastMessage">Menghalakan anda terus ke talian WhatsApp pakar mekanik...</p>
         </div>
     </div>
 
-    <!-- Custom JS Scripts -->
     <script>
-        // Set dynamically the current year in the footer
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-
-        // FAQ Toggle Logic
-        function toggleFaq(id) {
-            const faqContainer = document.getElementById(id);
-            const faqIcon = document.getElementById(id + '-icon');
+        // Interactive FAQ toggler logic
+        function toggleFaq(faqId) {
+            const faqContent = document.getElementById(`faq-content-${faqId}`);
+            const faqIcon = document.getElementById(`faq-icon-${faqId}`);
             
-            if (faqContainer.classList.contains('hidden')) {
-                faqContainer.classList.remove('hidden');
+            if (faqContent.classList.contains('hidden')) {
+                faqContent.classList.remove('hidden');
                 faqIcon.classList.add('rotate-180');
             } else {
-                faqContainer.classList.add('hidden');
+                faqContent.classList.add('hidden');
                 faqIcon.classList.remove('rotate-180');
             }
         }
 
-        // Price Tab Swapping Logic
-        function switchPriceTab(tabId) {
-            // Hide all tab content divs
-            const contents = document.querySelectorAll('.price-tab-content');
-            contents.forEach(content => {
-                content.classList.add('hidden');
-            });
-
-            // Show selected tab content div
-            document.getElementById('price-tab-' + tabId).classList.remove('hidden');
-
-            // Toggle active styling on buttons
-            const buttons = document.querySelectorAll('.price-tab-btn');
-            buttons.forEach(btn => {
-                btn.classList.remove('bg-primary', 'text-white', 'active');
-                btn.classList.add('bg-zinc-900', 'border-zinc-800', 'text-zinc-300');
-            });
-
-            // Add active state to clicked button
-            event.currentTarget.classList.remove('bg-zinc-900', 'border-zinc-800', 'text-zinc-300');
-            event.currentTarget.classList.add('bg-primary', 'text-white', 'active');
+        // Custom Toast replacement helper instead of using browser alerts
+        function showToast(message) {
+            const toast = document.getElementById('toastNotification');
+            const toastMsg = document.getElementById('toastMessage');
+            toastMsg.innerText = message;
+            toast.classList.remove('hidden');
+            
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 4000);
         }
 
-        // Hero Quiz Submission Logic (Constructs customized WhatsApp message for higher conversion)
+        // Action dynamic submit handler for the hero checklist form
         function submitHeroQuiz() {
-            const checkedCheckboxes = document.querySelectorAll('#heroQuizForm input[type="checkbox"]:checked');
-            let baseText = "Hai MHA Autoworks! Saya ada masalah ";
+            const checkboxes = document.querySelectorAll('#heroQuizForm input[type="checkbox"]:checked');
+            let selectedSymptoms = [];
             
-            if (checkedCheckboxes.length > 0) {
-                const problems = Array.from(checkedCheckboxes).map(cb => cb.value).join(', ');
-                baseText += problems + " pada kereta saya. Boleh bantu berikan anggaran kos?";
-            } else {
-                baseText += "suspension/bushing. Saya nak tanya anggaran kos servis untuk kereta saya.";
+            checkboxes.forEach(checkbox => {
+                selectedSymptoms.push(checkbox.value);
+            });
+
+            if (selectedSymptoms.length === 0) {
+                // If nothing is selected, send the main appointment request requested by user
+                const defaultMsg = `Hi Admin MHA\n\nsaya nak set appointment . Boleh cek slot yg available ?\n\nTerima kasih .`;
+                showToast("Membuka WhatsApp untuk menetapkan janji temu anda...");
+                setTimeout(() => {
+                    window.open(`https://wa.me/60194103062?text=${encodeURIComponent(defaultMsg)}`, '_blank');
+                }, 1000);
+                return;
             }
 
-            // Encode string correctly and redirect user to whatsapp
-            const urlEncoded = encodeURIComponent(baseText);
-            const waUrl = "https://wa.me/60194103062?text=" + urlEncoded;
-            window.open(waUrl, '_blank');
+            const symptomString = selectedSymptoms.join(', ');
+            const customMsg = `Hi Admin MHA\n\nsaya nak set appointment untuk semak masalah kerosakan bawah kereta (${symptomString}). Boleh cek slot yg available ?\n\nTerima kasih .`;
+            
+            showToast("Membuka WhatsApp untuk menghantar diagnosis...");
+            
+            setTimeout(() => {
+                window.open(`https://wa.me/60194103062?text=${encodeURIComponent(customMsg)}`, '_blank');
+            }, 1200);
+        }
+
+        // Pricing Matrix definitions matching realistic local workshop averages
+        const priceMatrix = {
+            local: {
+                bushing_pair: { min: 140, max: 240, time: "1.5 - 2.5 jam" },
+                absorber_pair: { min: 150, max: 290, time: "1.5 - 2.5 jam" }, // front absorber only rate
+                driveshaft: { min: 160, max: 280, time: "1.5 - 2 jam" },
+                skim_disc: { min: 120, max: 180, time: "1 - 1.5 jam" }
+            },
+            japanese: {
+                bushing_pair: { min: 180, max: 290, time: "1.5 - 3 jam" },
+                absorber_pair: { min: 250, max: 480, time: "2 - 3.5 jam" }, // front absorber only rate
+                driveshaft: { min: 220, max: 390, time: "1.5 - 2.5 jam" },
+                skim_disc: { min: 140, max: 220, time: "1 - 1.5 jam" }
+            },
+            luxury: {
+                bushing_pair: { min: 280, max: 550, time: "2.5 - 4 jam" },
+                absorber_pair: { min: 450, max: 850, time: "2.5 - 4.5 jam" }, // front absorber only rate
+                driveshaft: { min: 450, max: 850, time: "2 - 3.5 jam" },
+                skim_disc: { min: 180, max: 320, time: "1.5 - 2 jam" }
+            },
+            suv: {
+                bushing_pair: { min: 220, max: 380, time: "2 - 3.5 jam" },
+                absorber_pair: { min: 320, max: 580, time: "2 - 3.5 jam" }, // front absorber only rate
+                driveshaft: { min: 280, max: 490, time: "1.5 - 3 jam" },
+                skim_disc: { min: 160, max: 260, time: "1 - 1.5 jam" }
+            }
+        };
+
+        // Estimator helper action
+        function calculateEstimate() {
+            const segment = document.getElementById('carSegment').value;
+            const service = document.getElementById('serviceType').value;
+            
+            const selectedSet = priceMatrix[segment][service];
+            
+            const priceDisplay = document.getElementById('estimatedPriceDisplay');
+            const timeDisplay = document.getElementById('estimatedTimeDisplay');
+            
+            priceDisplay.innerText = `RM${selectedSet.min} - RM${selectedSet.max}*`;
+            timeDisplay.innerHTML = `⚡ Anggaran Masa Siap: <strong>${selectedSet.time}</strong> sahaja`;
+        }
+
+        // WhatsApp trigger for custom estimator action
+        function bookEstimatedService() {
+            const segmentSelect = document.getElementById('carSegment');
+            const serviceSelect = document.getElementById('serviceType');
+            
+            const segmentText = segmentSelect.options[segmentSelect.selectedIndex].text;
+            const serviceText = serviceSelect.options[serviceSelect.selectedIndex].text;
+            
+            const segmentValue = segmentSelect.value;
+            const serviceValue = serviceSelect.value;
+            const pricing = priceMatrix[segmentValue][serviceValue];
+
+            const message = `Hi Admin MHA\n\nsaya nak set appointment bagi servis [${serviceText}] untuk segmen kereta [${segmentText}] (Anggaran kalkulator: RM${pricing.min} - RM${pricing.max}). Boleh cek slot yg available ?\n\nTerima kasih .`;
+            
+            showToast("Membuka tempahan WhatsApp untuk mengesahkan slot pembaikan anda...");
+            
+            setTimeout(() => {
+                window.open(`https://wa.me/60194103062?text=${encodeURIComponent(message)}`, '_blank');
+            }, 1000);
         }
     </script>
 </body>
