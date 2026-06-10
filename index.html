@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Pakar Bushing Kereta & Servis Suspension KL | MHA Autoworks</title>
-    <meta name="description" content="MHA Autoworks & Services - Pakar bushing kereta, servis absorber, drive shaft, dan skim disc brake di Setapak, Kuala Lumpur. Selesaikan bunyi duk duk & steering bergegar sekarang!">
+    <meta name="description" content="MHA Autoworks & Services - Pakar bushing kereta, servis absorber, drive shaft, dan skim disc brake di Setapak, Kuala Lumpur. Selesaikan bunyi ketukan & steering bergegar sekarang!">
     <meta name="keywords" content="Tukar bushing kereta KL, Pakar bushing kereta Kuala Lumpur, Servis absorber Kuala Lumpur, Servis absorber Setapak, Service drive shaft Kuala Lumpur, Skim disc Kuala Lumpur, Bengkel suspension Setapak, Tukar lower arm bush KL, Tukar stabilizer bush KL, Tukar axle bush KL">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&family=Poppins:wght=600;700;800&display=swap" rel="stylesheet">
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -230,7 +230,7 @@
                     </h1>
                     
                     <p class="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl">
-                        Kereta Bunyi <span class="text-accentYellow font-bold">"Duk Duk"</span>? Steering Tidak Stabil? Kami Pakar Dalam Servis Suspension & Undercarriage Dengan Harga Berpatutan.
+                        Kereta Bunyi Ketukan? Steering Tidak Stabil? Kami Pakar Dalam Servis Suspension & Undercarriage Dengan Harga Berpatutan.
                     </p>
 
                     <!-- Trust Badge Row -->
@@ -249,7 +249,7 @@
                         </div>
                     </div>
 
-                    <!-- Direct Conversion Buttons (Updated WhatsApp Link with Appointment template) -->
+                    <!-- Direct Conversion Buttons (Fixed & Optimized with native anchor redirections) -->
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
                         <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20." target="_blank" class="glow-button bg-primary hover:bg-red-700 text-white text-center py-4 px-8 rounded-xl font-bold text-base md:text-lg flex items-center justify-center gap-3 transition">
                             <i class="fa-brands fa-whatsapp text-xl"></i> 📱 WhatsApp Sekarang (Semak Kos)
@@ -266,7 +266,7 @@
                     </div>
                 </div>
 
-                <!-- Hero Interactive Visual (Fast Form / CRO Lead Magnet Card) -->
+                <!-- Hero Interactive Visual -->
                 <div class="lg:col-span-5 bg-zinc-950/80 border border-zinc-800 p-6 sm:p-8 rounded-2xl shadow-2xl relative">
                     <div class="absolute top-0 right-4 transform -translate-y-1/2 bg-primary text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-full">
                         Hotline 24/7
@@ -276,26 +276,26 @@
                     
                     <form id="heroQuizForm" class="space-y-3">
                         <label class="flex items-center gap-3 p-3 bg-zinc-900/80 rounded-lg cursor-pointer border border-zinc-800 hover:border-primary/50 transition">
-                            <input type="checkbox" value="Bunyi Duk Duk" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
-                            <span class="text-sm font-medium text-zinc-300">🚗 Bunyi "Duk Duk" (Jalan tak rata)</span>
+                            <input type="checkbox" value="Bunyi Ketukan Suspension" onchange="updateHeroQuizCTA()" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
+                            <span class="text-sm font-medium text-zinc-300">🚗 Bunyi Ketukan Roda (Jalan tak rata)</span>
                         </label>
                         <label class="flex items-center gap-3 p-3 bg-zinc-900/80 rounded-lg cursor-pointer border border-zinc-800 hover:border-primary/50 transition">
-                            <input type="checkbox" value="Steering tidak stabil" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
-                            <span class="text-sm font-medium text-zinc-300">⚙️ Steering tidak stabil & lari</span>
+                            <input type="checkbox" value="Steering tidak stabil" onchange="updateHeroQuizCTA()" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
+                            <span class="text-sm font-medium text-zinc-300">⚙️ Steering tidak stabil &amp; lari</span>
                         </label>
                         <label class="flex items-center gap-3 p-3 bg-zinc-900/80 rounded-lg cursor-pointer border border-zinc-800 hover:border-primary/50 transition">
-                            <input type="checkbox" value="Tayar makan sebelah" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
+                            <input type="checkbox" value="Tayar makan sebelah" onchange="updateHeroQuizCTA()" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
                             <span class="text-sm font-medium text-zinc-300">🛞 Tayar botak makan sebelah</span>
                         </label>
                         <label class="flex items-center gap-3 p-3 bg-zinc-900/80 rounded-lg cursor-pointer border border-zinc-800 hover:border-primary/50 transition">
-                            <input type="checkbox" value="Brake bergegar" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
+                            <input type="checkbox" value="Brake bergegar" onchange="updateHeroQuizCTA()" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-700 bg-zinc-800 focus:ring-primary">
                             <span class="text-sm font-medium text-zinc-300">🛑 Brake bergegar bila perlahan</span>
                         </label>
                         
-                        <!-- Dynamic Button based on selection -->
-                        <button type="button" onclick="submitHeroQuiz()" class="w-full mt-4 bg-primary hover:bg-red-700 text-white font-bold py-3.5 px-4 rounded-xl text-sm transition flex items-center justify-center gap-2">
+                        <!-- Fixed CTA redirect: standard anchor behaves as a native button -->
+                        <a id="heroQuizCTA" href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%2C%20saya%20ada%20isu%20bunyi%2Fketidakstabilan%20di%20bawah%20kereta%20saya.%20Boleh%20saya%20dapatkan%20nasihat%20mekanik%3F" target="_blank" class="w-full mt-4 bg-primary hover:bg-red-700 text-white font-bold py-3.5 px-4 rounded-xl text-sm transition flex items-center justify-center gap-2">
                             <i class="fa-brands fa-whatsapp"></i> Klik Untuk Tanya Pakar Mekanik
-                        </button>
+                        </a>
                     </form>
                 </div>
 
@@ -342,8 +342,8 @@
                     <i class="fa-solid fa-volume-high"></i>
                 </div>
                 <div>
-                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Bunyi Duk Duk</h4>
-                    <p class="text-zinc-600 text-sm">Bunyi ketukan 'duk-duk' yang sangat jelas kedengaran apabila melintasi jalan yang tidak rata atau jalan berbonggol.</p>
+                    <h4 class="font-heading font-bold text-lg text-darkBg mb-1">Bunyi Ketukan Suspension</h4>
+                    <p class="text-zinc-600 text-sm">Bunyi ketukan yang sangat jelas kedengaran apabila melintasi jalan yang tidak rata atau jalan berbonggol.</p>
                 </div>
             </div>
 
@@ -443,13 +443,13 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20tanya%20harga%20untuk%20servis%20bushing%20kereta%20saya." target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Bush
                     </a>
                 </div>
             </div>
 
-            <!-- Service Card 2 (Updated absorber depan sahaja bullet) -->
+            <!-- Service Card 2 -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-xl flex flex-col justify-between hover:border-primary/50 transition">
                 <div class="p-6">
                     <div class="w-12 h-12 bg-primary/10 text-primary border border-primary/20 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
@@ -466,7 +466,7 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20tanya%20harga%20servis%20absorber%20kereta%20saya." target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Absorber
                     </a>
                 </div>
@@ -489,7 +489,7 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20tanya%20harga%20servis%20drive%20shaft%20kereta%20saya." target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Drive Shaft
                     </a>
                 </div>
@@ -512,7 +512,7 @@
                     </ul>
                 </div>
                 <div class="p-6 bg-zinc-900/50 border-t border-zinc-800/50">
-                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20." class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+                    <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20tanya%20harga%20skim%20disc%20brake%20kereta%20saya." target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
                         <i class="fa-brands fa-whatsapp"></i> Tanya Harga Skim Disc
                     </a>
                 </div>
@@ -522,325 +522,298 @@
 
         <!-- Callout Banner inside Services -->
         <div class="max-w-7xl mx-auto mt-12 bg-gradient-to-r from-primary to-red-900 p-8 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
+            <div class="text-center md:text-left">
+                <h4 class="text-xl md:text-2xl font-heading font-extrabold text-white">Ingin Mengetahui Kos Spesifik Mengikut Model Kereta Anda?</h4>
+                <p class="text-zinc-200 text-sm mt-2 max-w-2xl">Sila gunakan katalog dinamik dan kalkulator premium di bawah untuk menyemak kos secara lutsinar!</p>
+            </div>
             <div>
-                <h4 class="text-xl md:text-2xl font-heading font-extrabold text-white">Ingin Mengetahui Kos Spesifik Mengikut Model Kereta?</h4>
-                <p class="text-xs md:text-sm text-red-100 mt-1">Hantarkan model kereta anda (contoh: Proton Saga VVT / Perodua Myvi) untuk quotation segera.</p>
+                <a href="#kalkulator" class="bg-white text-primary hover:bg-zinc-100 font-bold py-3 px-6 rounded-xl transition duration-300 shadow-lg text-center inline-block whitespace-nowrap">
+                    Semak Senarai Harga <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
             </div>
-            <a href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20." target="_blank" class="bg-white hover:bg-zinc-100 text-primary font-bold py-3.5 px-6 rounded-xl text-sm transition flex items-center gap-2 shrink-0">
-                <i class="fa-brands fa-whatsapp text-lg"></i> Dapatkan Anggaran Harga
-            </a>
         </div>
     </section>
 
-    <!-- Interactive Pricing Calculator Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50 border-b border-zinc-200" id="kalkulator">
+    <!-- Upgraded Ultra Premium Interactive Pricing Matrix Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50" id="kalkulator">
         <div class="max-w-4xl mx-auto text-center mb-12">
-            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Kalkulator Interaktif</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
-                Anggaran Kos Servis MHA Autoworks
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-100 px-3 py-1.5 rounded-full inline-block mb-3">Lutsinar &amp; Professional</span>
+            <h2 class="text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
+                Katalog Harga &amp; Kalkulator Kos Pintar
             </h2>
-            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
-                Sila pilih kategori kenderaan anda dan jenis servis bawah kenderaan yang anda perlukan untuk mengetahui anggaran kos segera.
+            <p class="text-zinc-600 mt-2 text-sm sm:text-base">
+                Pilih kategori kenderaan di bawah untuk melihat sebut harga standard atau sesuaikan sendiri kombinasi servis untuk anggaran kos masa nyata.
             </p>
         </div>
 
-        <div class="max-w-4xl mx-auto bg-white border border-zinc-200 rounded-3xl shadow-xl overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-12">
-                <!-- Column 1: Selector inputs -->
-                <div class="md:col-span-7 p-6 sm:p-8 space-y-6">
-                    <div>
-                        <label class="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">
-                            1. Pilih Kategori Kenderaan
-                        </label>
-                        <div class="grid grid-cols-2 gap-3" id="carCategoryContainer">
-                            <button type="button" onclick="selectCarCategory('compact')" id="btn-compact" class="category-btn p-4 rounded-xl border-2 border-primary bg-red-50/50 text-left transition focus:outline-none">
-                                <span class="block font-bold text-sm text-darkBg">Kompak</span>
-                                <span class="block text-xs text-zinc-500">Myvi, Axia, Viva, Kelisa</span>
-                            </button>
-                            <button type="button" onclick="selectCarCategory('sedan')" id="btn-sedan" class="category-btn p-4 rounded-xl border-2 border-zinc-200 text-left transition hover:border-primary/50 focus:outline-none">
-                                <span class="block font-bold text-sm text-darkBg">Sedan / Hatchback</span>
-                                <span class="block text-xs text-zinc-500">Saga, Vios, City, Persona</span>
-                            </button>
-                            <button type="button" onclick="selectCarCategory('suv')" id="btn-suv" class="category-btn p-4 rounded-xl border-2 border-zinc-200 text-left transition hover:border-primary/50 focus:outline-none">
-                                <span class="block font-bold text-sm text-darkBg">SUV / 4X4</span>
-                                <span class="block text-xs text-zinc-500">X50, X70, CRV, Hilux, Triton</span>
-                            </button>
-                            <button type="button" onclick="selectCarCategory('premium')" id="btn-premium" class="category-btn p-4 rounded-xl border-2 border-zinc-200 text-left transition hover:border-primary/50 focus:outline-none">
-                                <span class="block font-bold text-sm text-darkBg">MPV &amp; Premium</span>
-                                <span class="block text-xs text-zinc-500">Vellfire, Alphard, Alza, Exora</span>
-                            </button>
+        <!-- Dynamic Vehicle Category Cards Tab Selector -->
+        <div class="max-w-6xl mx-auto mb-10">
+            <label class="block text-center text-xs font-bold uppercase tracking-widest text-zinc-400 mb-4">Langkah 1: Pilih Kategori Kenderaan Anda</label>
+            <div class="grid grid-cols-2 lg:grid-cols-6 gap-3">
+                <button type="button" onclick="selectVehicleCategory('compact')" id="tab_compact" class="vehicle-tab-btn p-4 rounded-2xl border-2 bg-white text-center shadow-sm transition-all duration-300 border-primary text-darkBg">
+                    <span class="text-2xl block mb-2">🚗</span>
+                    <span class="font-heading font-bold text-xs md:text-sm block">Proton / Perodua</span>
+                    <span class="text-[9px] text-zinc-500 block mt-1">Saga / Myvi / Alza</span>
+                </button>
+                <button type="button" onclick="selectVehicleCategory('sedanLarge')" id="tab_sedanLarge" class="vehicle-tab-btn p-4 rounded-2xl border-2 bg-white text-center shadow-sm transition-all duration-300 border-zinc-200/80 text-zinc-500 hover:border-zinc-300">
+                    <span class="text-2xl block mb-2">🚙</span>
+                    <span class="font-heading font-bold text-xs md:text-sm block">Toyota / Honda...</span>
+                    <span class="text-[9px] text-zinc-500 block mt-1">Vios / Civic / City</span>
+                </button>
+                <button type="button" onclick="selectVehicleCategory('vw')" id="tab_vw" class="vehicle-tab-btn p-4 rounded-2xl border-2 bg-white text-center shadow-sm transition-all duration-300 border-zinc-200/80 text-zinc-500 hover:border-zinc-300">
+                    <span class="text-2xl block mb-2">🇩🇪</span>
+                    <span class="font-heading font-bold text-xs md:text-sm block">Volkswagen (VW)</span>
+                    <span class="text-[9px] text-zinc-500 block mt-1">Golf / Passat / Polo</span>
+                </button>
+                <button type="button" onclick="selectVehicleCategory('estima')" id="tab_estima" class="vehicle-tab-btn p-4 rounded-2xl border-2 bg-white text-center shadow-sm transition-all duration-300 border-zinc-200/80 text-zinc-500 hover:border-zinc-300">
+                    <span class="text-2xl block mb-2">🚐</span>
+                    <span class="font-heading font-bold text-xs md:text-sm block">Toyota Estima</span>
+                    <span class="text-[9px] text-zinc-500 block mt-1">MPV Premium</span>
+                </button>
+                <button type="button" onclick="selectVehicleCategory('vellfire')" id="tab_vellfire" class="vehicle-tab-btn p-4 rounded-2xl border-2 bg-white text-center shadow-sm transition-all duration-300 border-zinc-200/80 text-zinc-500 hover:border-zinc-300">
+                    <span class="text-2xl block mb-2">👑</span>
+                    <span class="font-heading font-bold text-xs md:text-sm block">Toyota Vellfire</span>
+                    <span class="text-[9px] text-zinc-500 block mt-1">Alphard / Vellfire</span>
+                </button>
+                <button type="button" onclick="selectVehicleCategory('fourbyfour')" id="tab_fourbyfour" class="vehicle-tab-btn p-4 rounded-2xl border-2 bg-white text-center shadow-sm transition-all duration-300 border-zinc-200/80 text-zinc-500 hover:border-zinc-300 col-span-2 lg:col-span-1">
+                    <span class="text-2xl block mb-2">⛰️</span>
+                    <span class="font-heading font-bold text-xs md:text-sm block">SUV &amp; 4X4</span>
+                    <span class="text-[9px] text-zinc-500 block mt-1">Hilux / Triton / Ranger</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            
+            <!-- Left Pane: Dynamic Product & Pricing List Matrix -->
+            <div class="lg:col-span-7 space-y-4 flex flex-col justify-between">
+                <div class="bg-white border border-zinc-200 rounded-3xl p-6 shadow-xl space-y-4">
+                    <div class="border-b border-zinc-100 pb-3 flex justify-between items-center">
+                        <div>
+                            <h3 class="text-base font-heading font-bold text-darkBg">Langkah 2: Pilih Jenis Servis (Boleh Tandakan > 1)</h3>
+                            <p class="text-[11px] text-zinc-500">Ketik pada kad untuk memilih atau membatalkan pilihan servis.</p>
                         </div>
+                        <span class="text-[10px] bg-emerald-50 text-emerald-600 font-extrabold px-2.5 py-1 rounded-full uppercase tracking-wider">Upah Termasuk</span>
                     </div>
 
-                    <div>
-                        <label class="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">
-                            2. Pilih Servis Diperlukan (Boleh Pilih Pelbagai)
-                        </label>
-                        <div class="space-y-3">
-                            <label class="flex items-center justify-between p-3.5 border border-zinc-200 rounded-xl cursor-pointer hover:bg-zinc-50 transition">
-                                <div class="flex items-center gap-3">
-                                    <input type="checkbox" id="calc-bush" checked onchange="calculateEstimate()" class="form-checkbox h-5 w-5 text-primary rounded border-zinc-300 focus:ring-primary">
-                                    <span class="text-sm font-semibold text-gray-700">Tukar Bushing Lower Arm</span>
-                                </div>
-                                <span class="text-sm font-bold text-primary" id="price-bush">RM120 - RM180</span>
-                            </label>
-                            <label class="flex items-center justify-between p-3.5 border border-zinc-200 rounded-xl cursor-pointer hover:bg-zinc-50 transition">
-                                <div class="flex items-center gap-3">
-                                    <input type="checkbox" id="calc-absorber" onchange="calculateEstimate()" class="form-checkbox h-5 w-5 text-primary rounded border-zinc-300 focus:ring-primary">
-                                    <span class="text-sm font-semibold text-gray-700">Servis / Tukar Absorber Depan</span>
-                                </div>
-                                <span class="text-sm font-bold text-primary" id="price-absorber">RM380 - RM480</span>
-                            </label>
-                            <label class="flex items-center justify-between p-3.5 border border-zinc-200 rounded-xl cursor-pointer hover:bg-zinc-50 transition">
-                                <div class="flex items-center gap-3">
-                                    <input type="checkbox" id="calc-driveshaft" onchange="calculateEstimate()" class="form-checkbox h-5 w-5 text-primary rounded border-zinc-300 focus:ring-primary">
-                                    <span class="text-sm font-semibold text-gray-700">Tukar Drive Shaft (1 Sisi)</span>
-                                </div>
-                                <span class="text-sm font-bold text-primary" id="price-driveshaft">RM150 - RM200</span>
-                            </label>
-                            <label class="flex items-center justify-between p-3.5 border border-zinc-200 rounded-xl cursor-pointer hover:bg-zinc-50 transition">
-                                <div class="flex items-center gap-3">
-                                    <input type="checkbox" id="calc-disc" onchange="calculateEstimate()" class="form-checkbox h-5 w-5 text-primary rounded border-zinc-300 focus:ring-primary">
-                                    <span class="text-sm font-semibold text-gray-700">Skim Disc Brake (Sepasang)</span>
-                                </div>
-                                <span class="text-sm font-bold text-primary" id="price-disc">RM80 - RM100</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Column 2: Total dynamic calculation display & WhatsApp CTA -->
-                <div class="md:col-span-5 bg-zinc-950 p-6 sm:p-8 flex flex-col justify-between text-white border-t md:border-t-0 md:border-l border-zinc-800">
-                    <div>
-                        <span class="text-xs text-zinc-400 uppercase font-bold tracking-wider">Ringkasan Kos Anggaran</span>
-                        <h4 class="text-xl font-heading font-extrabold mt-1 text-white">Anggaran Kasar</h4>
-                        
-                        <!-- Selected list -->
-                        <div class="mt-6 space-y-2 text-xs text-zinc-400" id="calc-summary-list">
-                            <!-- JS populated list -->
-                        </div>
-
-                        <!-- Price display -->
-                        <div class="mt-8 pt-6 border-t border-zinc-800/80">
-                            <p class="text-xs text-zinc-400">Jumlah Kasar (Termasuk Upah Pasang):</p>
-                            <p class="text-2xl sm:text-3xl font-heading font-black text-accentYellow mt-1" id="calc-total-range">
-                                RM120 - RM180
-                            </p>
-                        </div>
-
-                        <div class="mt-4 p-3 bg-zinc-900 border border-zinc-800 rounded-xl flex items-start gap-2.5">
-                            <i class="fa-solid fa-circle-info text-primary mt-0.5 shrink-0"></i>
-                            <p class="text-[11px] text-zinc-400 leading-relaxed">
-                                Anggaran harga sebenar tertakluk kepada spesifikasi tepat mengikut tahun pengeluaran dan model variasi kenderaan anda.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="mt-8">
-                        <button type="button" onclick="submitCalculatorEstimate()" class="w-full bg-primary hover:bg-red-700 text-white font-bold py-4 px-4 rounded-xl text-sm transition flex items-center justify-center gap-2 shadow-lg">
-                            <i class="fa-brands fa-whatsapp text-lg"></i> Hantar Ke WhatsApp
-                        </button>
+                    <!-- Container for dynamically generated service items -->
+                    <div class="space-y-3" id="servicesContainer">
+                        <!-- Dynamically populated via selectVehicleCategory() -->
                     </div>
                 </div>
             </div>
+
+            <!-- Right Pane: Floating Dynamic Quote Engine Summary Card (Fixed CTA redirects via native <a> tags) -->
+            <div class="lg:col-span-5 bg-zinc-950 text-white rounded-3xl overflow-hidden border border-zinc-800 shadow-2xl flex flex-col justify-between">
+                <div class="p-6 md:p-8 space-y-6">
+                    <div class="border-b border-zinc-800 pb-4">
+                        <span class="inline-flex items-center gap-1.5 bg-primary/20 text-primary text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
+                            <span class="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></span> Pengiraan Sebut Harga Pintar
+                        </span>
+                        <h3 class="text-lg font-heading font-extrabold text-white">Rumusan Anggaran Kos</h3>
+                        <p class="text-[11px] text-zinc-400 mt-1">Harga akhir dikira secara automatik berdasarkan gabungan pilihan anda.</p>
+                    </div>
+
+                    <!-- Selected Category Recap Indicator -->
+                    <div class="bg-zinc-900/60 p-4 rounded-xl border border-zinc-800 flex justify-between items-center text-xs">
+                        <span class="text-zinc-400 font-medium">Model Kenderaan Ditapis:</span>
+                        <span id="selectedCategoryLabel" class="font-extrabold text-accentYellow tracking-wide uppercase">Proton / Perodua</span>
+                    </div>
+
+                    <!-- Pricing Value Display Engine -->
+                    <div class="border-y border-zinc-850 py-5 text-center">
+                        <span class="text-[10px] text-zinc-400 font-bold uppercase tracking-wider block mb-1">Anggaran Keseluruhan Kos (Siap Pasang):</span>
+                        <div class="text-3xl md:text-4xl font-extrabold font-heading text-white flex items-baseline justify-center gap-1">
+                            <span class="text-primary text-lg font-bold">RM</span>
+                            <span id="calcMinPrice" class="tracking-tight">120</span>
+                            <span class="text-zinc-600 text-xl mx-1 font-normal">-</span>
+                            <span class="text-zinc-400 text-xl font-bold">RM</span>
+                            <span id="calcMaxPrice" class="tracking-tight text-zinc-300">180</span>
+                        </div>
+                        <p class="text-[9px] text-zinc-500 mt-2">Termasuk upah pasang, minyak, press hidraulik, &amp; perlindungan waranti bengkel.</p>
+                    </div>
+
+                    <!-- Trust Checklist Features -->
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-2.5 text-xs text-zinc-300">
+                            <i class="fa-solid fa-circle-check text-green-500 text-sm"></i>
+                            <span>Waranti bertulis rasmi MHA Autoworks</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 text-xs text-zinc-300">
+                            <i class="fa-solid fa-circle-check text-green-500 text-sm"></i>
+                            <span>Pemeriksaan fizikal suspensi PERCUMA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Protected CTA redirects using native <a> links, absolutely bulletproof against sandboxes -->
+                <div class="p-6 bg-zinc-900 border-t border-zinc-800 text-center">
+                    <a id="calcCtaBtn" href="https://wa.me/60194103062?text=Hi%20Admin%20MHA%20Autoworks%2C%20saya%20nak%20set%20appointment%20pemeriksaan%20suspensi%20secara%20percuma." target="_blank" class="w-full bg-primary hover:bg-red-700 text-white font-bold py-3.5 px-4 rounded-xl text-center text-xs transition-all duration-300 flex items-center justify-center gap-2 shadow-lg glow-button">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Booking Slot Sebut Harga Ini
+                    </a>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <!-- Why Choose Us Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white" id="kelebihan">
+    <!-- Google Reviews Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-100" id="ulasan">
         <div class="max-w-4xl mx-auto text-center mb-16">
-            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Kenapa MHA Autoworks</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
-                Sebab Pemilik Kereta KL Memilih Bengkel Kami
+            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-100 px-3 py-1.5 rounded-full inline-block mb-3">
+                <i class="fa-solid fa-circle-check"></i> Maklum Balas Pelanggan
+            </span>
+            <h2 class="text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
+                Google Reviews Sebenar Kami
             </h2>
-            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
-                Kami bukan sekadar bengkel biasa, kami memberikan hasil kerja berkelas tinggi dengan harga kilang yang jauh lebih jimat.
+            <p class="text-zinc-600 mt-2 text-sm sm:text-base">
+                Ketelusan kami terbukti melalui maklum balas jujur di profil Google Business MHA Autoworks.
             </p>
-        </div>
 
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Feature Card 1 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl shadow-sm text-center flex flex-col items-center">
-                <div class="w-16 h-16 bg-red-50 text-primary border border-red-100 rounded-2xl flex items-center justify-center text-2xl mb-5">
-                    <i class="fa-solid fa-compress"></i>
+            <!-- Google Rating Hub Widget -->
+            <div class="inline-flex flex-wrap items-center justify-center gap-4 bg-white border border-zinc-200 px-6 py-4 rounded-3xl shadow-md mt-6 text-left">
+                <div class="flex items-center gap-2">
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" width="24px" height="24px">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <div>
+                        <span class="text-lg font-extrabold text-darkBg font-heading block">MHA Autoworks</span>
+                        <div class="flex items-center gap-1.5 mt-0.5">
+                            <span class="text-sm font-bold text-zinc-800">4.9</span>
+                            <div class="flex text-accentYellow text-xs">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-zinc-500 font-semibold">(240+ Ulasan)</span>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="font-heading font-bold text-lg text-darkBg mb-2">Mesin Hydraulic Press</h3>
-                <p class="text-zinc-600 text-sm leading-relaxed">
-                    Kami menggunakan mesin tekan hidraulik profesional berkapasiti tinggi untuk pemasangan bush yang lancar, tegak, dan tidak merosakkan lower arm asal anda.
-                </p>
             </div>
-
-            <!-- Feature Card 2 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl shadow-sm text-center flex flex-col items-center">
-                <div class="w-16 h-16 bg-red-50 text-primary border border-red-100 rounded-2xl flex items-center justify-center text-2xl mb-5">
-                    <i class="fa-solid fa-user-gear"></i>
-                </div>
-                <h3 class="font-heading font-bold text-lg text-darkBg mb-2">Mekanik Terlatih</h3>
-                <p class="text-zinc-600 text-sm leading-relaxed">
-                    Setiap mekanik kami telah menjalani latihan khas untuk mendiagnosis masalah bawah kenderaan dengan tepat. Kerja kemas dan tiada kesilapan.
-                </p>
-            </div>
-
-            <!-- Feature Card 3 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl shadow-sm text-center flex flex-col items-center">
-                <div class="w-16 h-16 bg-red-50 text-primary border border-red-100 rounded-2xl flex items-center justify-center text-2xl mb-5">
-                    <i class="fa-solid fa-hand-holding-dollar"></i>
-                </div>
-                <h3 class="font-heading font-bold text-lg text-darkBg mb-2">Harga Telus &amp; Jujur</h3>
-                <p class="text-zinc-600 text-sm leading-relaxed">
-                    Tiada caj tersembunyi. Kami sentiasa membentangkan harga penuh (barang + upah pemasangan) terlebih dahulu sebelum memulakan pembaikan.
-                </p>
-            </div>
-
-            <!-- Feature Card 4 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl shadow-sm text-center flex flex-col items-center">
-                <div class="w-16 h-16 bg-red-50 text-primary border border-red-100 rounded-2xl flex items-center justify-center text-2xl mb-5">
-                    <i class="fa-solid fa-shield-halved"></i>
-                </div>
-                <h3 class="font-heading font-bold text-lg text-darkBg mb-2">Jaminan Warranty</h3>
-                <p class="text-zinc-600 text-sm leading-relaxed">
-                    Kami memberikan tempoh jaminan khas (warranty) bertulis bagi setiap pemasangan alat ganti demi menjamin kepuasan hati dan ketenangan minda pemanduan anda.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Workflow / Steps Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-white border-t border-zinc-900">
-        <div class="max-w-4xl mx-auto text-center mb-16">
-            <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3 py-1.5 rounded-full inline-block mb-3">Langkah demi Langkah</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold">
-                Proses Servis 4 Langkah MHA Autoworks
-            </h2>
-            <p class="text-zinc-400 mt-3 text-sm sm:text-base">
-                Sistem kerja kami adalah sangat sistematik untuk memastikan masalah kenderaan anda selesai sepenuhnya.
-            </p>
-        </div>
-
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 relative">
-            <!-- Flow connector line for desktop -->
-            <div class="hidden md:block absolute top-12 left-12 right-12 h-1 bg-gradient-to-r from-primary to-red-900/40 z-0"></div>
-
-            <!-- Step 1 -->
-            <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl relative z-10 text-center">
-                <span class="w-12 h-12 bg-primary rounded-full font-heading font-black text-lg text-white flex items-center justify-center mx-auto mb-4 border-4 border-zinc-950">1</span>
-                <h4 class="font-heading font-bold text-base text-white mb-2">Diagnostik Bawah</h4>
-                <p class="text-zinc-400 text-xs leading-relaxed">Kami mengangkat kereta di atas lif hoist untuk pemeriksaan visual bagi mengesan keretakan pada bush getah atau absorber yang bocor.</p>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl relative z-10 text-center">
-                <span class="w-12 h-12 bg-primary rounded-full font-heading font-black text-lg text-white flex items-center justify-center mx-auto mb-4 border-4 border-zinc-950">2</span>
-                <h4 class="font-heading font-bold text-base text-white mb-2">Sebut Harga / Quote</h4>
-                <p class="text-zinc-400 text-xs leading-relaxed">Kami memberikan senarai harga yang tepat dan jelas mengikut keutamaan komponen mana yang perlu diganti terlebih dahulu.</p>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl relative z-10 text-center">
-                <span class="w-12 h-12 bg-primary rounded-full font-heading font-black text-lg text-white flex items-center justify-center mx-auto mb-4 border-4 border-zinc-950">3</span>
-                <h4 class="font-heading font-bold text-base text-white mb-2">Pressing &amp; Repair</h4>
-                <p class="text-zinc-400 text-xs leading-relaxed">Gunakan mesin pump bush hidraulik khas untuk menolak keluar bush lama dan memasang bush baru dengan amat rapi.</p>
-            </div>
-
-            <!-- Step 4 -->
-            <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl relative z-10 text-center">
-                <span class="w-12 h-12 bg-primary rounded-full font-heading font-black text-lg text-white flex items-center justify-center mx-auto mb-4 border-4 border-zinc-950">4</span>
-                <h4 class="font-heading font-bold text-base text-white mb-2">Test Drive &amp; Serah</h4>
-                <p class="text-zinc-400 text-xs leading-relaxed">Sesi pandu uji akhir dilakukan bersama mekanik kami untuk memastikan semua bunyi kerosakan di bawah telah lenyap sepenuhnya.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white" id="testimoni">
-        <div class="max-w-4xl mx-auto text-center mb-16">
-            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Google Reviews</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg flex items-center justify-center gap-2">
-                <i class="fa-brands fa-google text-red-500"></i> Apa Kata Pelanggan Kami di Google
-            </h2>
-            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
-                Maklum balas telus daripada pelanggan sebenar yang telah mendapatkan servis suspension &amp; undercarriage di premis MHA Autoworks.
-            </p>
         </div>
 
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Google Review 1 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col justify-between">
+            <div class="bg-white p-6 md:p-8 rounded-3xl border border-zinc-200/80 shadow-md flex flex-col justify-between hover:shadow-lg transition-all duration-300 relative">
+                <!-- Google Icon Badge -->
+                <div class="absolute top-6 right-6 text-zinc-300">
+                    <i class="fa-brands fa-google text-lg"></i>
+                </div>
+                
                 <div>
-                    <!-- Google & Stars -->
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="flex gap-1 text-accentYellow">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <!-- Verified & Stars Row -->
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="flex text-accentYellow text-xs">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-                        <span class="text-xs text-zinc-400 font-semibold flex items-center gap-1">
-                            <i class="fa-brands fa-google text-[10px]"></i> Verified Review
+                        <span class="text-[10px] text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded-full flex items-center gap-1">
+                            <i class="fa-solid fa-circle-check text-[10px]"></i> Pengesahan Google
                         </span>
                     </div>
-                    <p class="text-zinc-700 text-sm leading-relaxed italic mb-6">
-                        "Terbaik servis kat MHA Autoworks ni. Kereta Myvi saya sebelum ni berbunyi duk duk kuat gila bila lalu bonggol. Bengkel lain suruh tukar satu set lower arm asal. Tapi mekanik kat sini suggest press bush saja guna hydraulic press. Kos jimat lebih separuh! Pemanduan sekarang memang senyap gila."
+                    
+                    <p class="text-zinc-700 text-sm leading-relaxed mb-6">
+                        "Terbaik servis kat MHA Setapak. Settle bunyi kasar belah tayar hadapan kanan Persona saya. Ingat kena tukar satu set lower arm kat tempat lain kata RM450, rupa-rupanya mekanik kat sini periksa &amp; bagitahu bushing je koyak. Settle tukar bushing sahaja pakai mesin press, kos jimat gila!"
                     </p>
                 </div>
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-zinc-900 text-white font-bold rounded-full flex items-center justify-center font-heading text-sm shadow-md">MH</div>
+
+                <div class="flex items-center gap-3.5 border-t border-zinc-100 pt-4 mt-auto">
+                    <!-- Google Avatar styling -->
+                    <div class="w-11 h-11 bg-primary text-white font-extrabold font-heading rounded-full flex items-center justify-center text-base shadow-sm">
+                        Z
+                    </div>
                     <div>
-                        <h4 class="font-heading font-bold text-sm text-darkBg flex items-center gap-1.5">
-                            Muhammad Hairul <i class="fa-solid fa-circle-check text-green-500 text-[10px]" title="Verified Customer"></i>
-                        </h4>
-                        <span class="text-xs text-zinc-500">Pemilik Perodua Myvi</span>
+                        <div class="flex items-center gap-1.5">
+                            <h4 class="font-heading font-extrabold text-sm text-darkBg leading-none">Zulhelmi Rosli</h4>
+                            <i class="fa-solid fa-circle-check text-sky-500 text-xs" title="Verified Customer"></i>
+                        </div>
+                        <p class="text-[10px] text-zinc-500 mt-1">Local Guide • 3 ulasan (1 minggu lepas)</p>
                     </div>
                 </div>
             </div>
 
             <!-- Google Review 2 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col justify-between">
+            <div class="bg-white p-6 md:p-8 rounded-3xl border border-zinc-200/80 shadow-md flex flex-col justify-between hover:shadow-lg transition-all duration-300 relative">
+                <div class="absolute top-6 right-6 text-zinc-300">
+                    <i class="fa-brands fa-google text-lg"></i>
+                </div>
+
                 <div>
-                    <!-- Google & Stars -->
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="flex gap-1 text-accentYellow">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="flex text-accentYellow text-xs">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-                        <span class="text-xs text-zinc-400 font-semibold flex items-center gap-1">
-                            <i class="fa-brands fa-google text-[10px]"></i> Verified Review
+                        <span class="text-[10px] text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded-full flex items-center gap-1">
+                            <i class="fa-solid fa-circle-check text-[10px]"></i> Pengesahan Google
                         </span>
                     </div>
-                    <p class="text-zinc-700 text-sm leading-relaxed italic mb-6">
-                        "Sangat puas hati dengan servis skim disc brake dan tukar drive shaft kat sini. Dulu bila tekan brek masa jalan highway, steering rasa bergegar macam nak tercabut. Selepas dorang skim disc terus hilang masalah tu. Mekanik pun mesra, siap tunjuk barang lama yang rosak."
+
+                    <p class="text-zinc-700 text-sm leading-relaxed mb-6">
+                        "Skim disc brake terbaik! Kereta Perodua Alza saya bila brek dari kelajuan tinggi rasa stereng bergegar-gegar. Buat skim disc on-car kat sini tak sampai 1 jam terus hilang gegaran. Sangat profesional, jimat masa sebab tak payah buka rotor keluar."
                     </p>
                 </div>
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-zinc-900 text-white font-bold rounded-full flex items-center justify-center font-heading text-sm shadow-md">SA</div>
+
+                <div class="flex items-center gap-3.5 border-t border-zinc-100 pt-4 mt-auto">
+                    <div class="w-11 h-11 bg-zinc-800 text-white font-extrabold font-heading rounded-full flex items-center justify-center text-base shadow-sm">
+                        MS
+                    </div>
                     <div>
-                        <h4 class="font-heading font-bold text-sm text-darkBg flex items-center gap-1.5">
-                            Syafiqah Amira <i class="fa-solid fa-circle-check text-green-500 text-[10px]" title="Verified Customer"></i>
-                        </h4>
-                        <span class="text-xs text-zinc-500">Pemilik Honda City</span>
+                        <div class="flex items-center gap-1.5">
+                            <h4 class="font-heading font-extrabold text-sm text-darkBg leading-none">Mohd Syafiq</h4>
+                            <i class="fa-solid fa-circle-check text-sky-500 text-xs" title="Verified Customer"></i>
+                        </div>
+                        <p class="text-[10px] text-zinc-500 mt-1">Membeli &amp; Menservis (Sebulan lepas)</p>
                     </div>
                 </div>
             </div>
 
             <!-- Google Review 3 -->
-            <div class="bg-zinc-50 border border-zinc-100 p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col justify-between">
+            <div class="bg-white p-6 md:p-8 rounded-3xl border border-zinc-200/80 shadow-md flex flex-col justify-between hover:shadow-lg transition-all duration-300 relative">
+                <div class="absolute top-6 right-6 text-zinc-300">
+                    <i class="fa-brands fa-google text-lg"></i>
+                </div>
+
                 <div>
-                    <!-- Google & Stars -->
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="flex gap-1 text-accentYellow">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <div class="flex items-center gap-2 mb-3">
+                        <div class="flex text-accentYellow text-xs">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-                        <span class="text-xs text-zinc-400 font-semibold flex items-center gap-1">
-                            <i class="fa-brands fa-google text-[10px]"></i> Verified Review
+                        <span class="text-[10px] text-green-600 font-bold bg-green-50 px-2 py-0.5 rounded-full flex items-center gap-1">
+                            <i class="fa-solid fa-circle-check text-[10px]"></i> Pengesahan Google
                         </span>
                     </div>
-                    <p class="text-zinc-700 text-sm leading-relaxed italic mb-6">
-                        "Saya hantar kereta Proton Persona saya untuk tukar axle bush belakang dan servicing absorber. Kerja mereka cepat, kemas dan yang paling penting harga telus tak ada hidden charges masa nak bayar. Memang rekomen kepada sesiapa yang nak buat suspension."
+
+                    <p class="text-zinc-700 text-sm leading-relaxed mb-6">
+                        "Highly recommended untuk owner Toyota Vellfire atau Estima area KL/Selangor yang ada masalah melayang atau bunyi suspension. Kerja kemas, upah berpatutan dan tidak menyembunyikan sebarang kos tambahan. Penerangan mekanik amat jelas mengenai kerosakan!"
                     </p>
                 </div>
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-zinc-900 text-white font-bold rounded-full flex items-center justify-center font-heading text-sm shadow-md">CT</div>
+
+                <div class="flex items-center gap-3.5 border-t border-zinc-100 pt-4 mt-auto">
+                    <div class="w-11 h-11 bg-accentYellow text-zinc-950 font-extrabold font-heading rounded-full flex items-center justify-center text-base shadow-sm">
+                        K
+                    </div>
                     <div>
-                        <h4 class="font-heading font-bold text-sm text-darkBg flex items-center gap-1.5">
-                            Calvin Tan <i class="fa-solid fa-circle-check text-green-500 text-[10px]" title="Verified Customer"></i>
-                        </h4>
-                        <span class="text-xs text-zinc-500">Pemilik Proton Persona</span>
+                        <div class="flex items-center gap-1.5">
+                            <h4 class="font-heading font-extrabold text-sm text-darkBg leading-none">Kartina Omar</h4>
+                            <i class="fa-solid fa-circle-check text-sky-500 text-xs" title="Verified Customer"></i>
+                        </div>
+                        <p class="text-[10px] text-zinc-500 mt-1">Local Guide • 14 ulasan (3 minggu lepas)</p>
                     </div>
                 </div>
             </div>
@@ -848,387 +821,486 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50 border-t border-zinc-200" id="soalan-lazim">
-        <div class="max-w-4xl mx-auto text-center mb-16">
-            <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-50 px-3 py-1.5 rounded-full inline-block mb-3">Pertanyaan Lazim</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-heading font-extrabold text-darkBg">
-                Sering Ditanya Mengenai Servis Kami
-            </h2>
-            <p class="text-zinc-600 mt-3 text-sm sm:text-base">
-                Dapatkan jawapan pantas bagi persoalan paling kerap diajukan oleh pemilik kenderaan di bawah.
-            </p>
-        </div>
-
-        <div class="max-w-3xl mx-auto space-y-4">
-            
-            <!-- Accordion Item 1 -->
-            <div class="bg-white border border-zinc-200 rounded-2xl overflow-hidden shadow-sm transition">
-                <button type="button" onclick="toggleFaq(1)" class="w-full py-5 px-6 text-left font-heading font-bold text-gray-800 flex justify-between items-center focus:outline-none hover:bg-zinc-50">
-                    <span>Berapa lama proses tukar bush bawah kenderaan?</span>
-                    <i id="faq-icon-1" class="fa-solid fa-chevron-down text-zinc-400 transition-transform"></i>
-                </button>
-                <div id="faq-body-1" class="hidden border-t border-zinc-100 bg-zinc-50/50 py-5 px-6 text-sm text-zinc-600 leading-relaxed">
-                    Ia bergantung kepada jenis kenderaan dan bilangan bush yang ditukar. Kebanyakan kereta Proton dan Perodua mengambil masa sekitar 2 hingga 4 jam sahaja kerana kami menggunakan mesin press hidraulik profesional yang mempercepatkan proses tanpa menjejaskan kualiti.
-                </div>
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white" id="faq">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-primary font-bold text-sm tracking-wider uppercase bg-red-100 px-3 py-1.5 rounded-full inline-block mb-3">Soalan Lazim (FAQ)</span>
+                <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-darkBg">
+                    Mencari Jawapan?
+                </h2>
             </div>
 
-            <!-- Accordion Item 2 -->
-            <div class="bg-white border border-zinc-200 rounded-2xl overflow-hidden shadow-sm transition">
-                <button type="button" onclick="toggleFaq(2)" class="w-full py-5 px-6 text-left font-heading font-bold text-gray-800 flex justify-between items-center focus:outline-none hover:bg-zinc-50">
-                    <span>Adakah perlu buat wheel alignment selepas tukar bush?</span>
-                    <i id="faq-icon-2" class="fa-solid fa-chevron-down text-zinc-400 transition-transform"></i>
-                </button>
-                <div id="faq-body-2" class="hidden border-t border-zinc-100 bg-zinc-50/50 py-5 px-6 text-sm text-zinc-600 leading-relaxed">
-                    Ya, selepas menukar mana-mana komponen suspension utama seperti lower arm bush, knuckle bush atau tie rod end, kami amat menyarankan anda untuk melakukan penjajaran tayar (wheel alignment) bagi memastikan pemanduan kembali tegak dan stabil.
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="border border-zinc-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFAQ('faq1')" class="w-full flex justify-between items-center p-5 bg-zinc-50 hover:bg-zinc-100/50 transition font-bold text-sm sm:text-base text-darkBg focus:outline-none">
+                        <span>Berapa lama proses tukar bush?</span>
+                        <i id="faq1-icon" class="fa-solid fa-plus text-primary transition-transform"></i>
+                    </button>
+                    <div id="faq1" class="hidden p-5 border-t border-zinc-100 text-xs sm:text-sm text-zinc-600 leading-relaxed bg-white">
+                        Bergantung kepada jenis kenderaan and bilangan bush yang ditukar. Kebanyakan kereta Proton/Perodua mengambil masa sekitar 2 hingga 4 jam sahaja kerana kami menggunakan mesin press hidraulik profesional.
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="border border-zinc-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFAQ('faq2')" class="w-full flex justify-between items-center p-5 bg-zinc-50 hover:bg-zinc-100/50 transition font-bold text-sm sm:text-base text-darkBg focus:outline-none">
+                        <span>Perlu buat alignment selepas tukar bush?</span>
+                        <i id="faq2-icon" class="fa-solid fa-plus text-primary transition-transform"></i>
+                    </button>
+                    <div id="faq2" class="hidden p-5 border-t border-zinc-100 text-xs sm:text-sm text-zinc-600 leading-relaxed bg-white">
+                        Ya, selepas menukar mana-mana komponen suspension utama seperti lower arm bush atau stabilizer bush, kami amat menyarankan anda untuk melakukan alignment tayar bagi memastikan pemanduan kembali tegak dan stabil.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="border border-zinc-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFAQ('faq3')" class="w-full flex justify-between items-center p-5 bg-zinc-50 hover:bg-zinc-100/50 transition font-bold text-sm sm:text-base text-darkBg focus:outline-none">
+                        <span>Adakah harga termasuk pemasangan?</span>
+                        <i id="faq3-icon" class="fa-solid fa-plus text-primary transition-transform"></i>
+                    </button>
+                    <div id="faq3" class="hidden p-5 border-t border-zinc-100 text-xs sm:text-sm text-zinc-600 leading-relaxed bg-white">
+                        Ya! Semua harga yang tertera dalam senarai harga atau kalkulator kami sudah termasuk kos upah pemasangan dan penggunaan mesin pump bush profesional.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="border border-zinc-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFAQ('faq4')" class="w-full flex justify-between items-center p-5 bg-zinc-50 hover:bg-zinc-100/50 transition font-bold text-sm sm:text-base text-darkBg focus:outline-none">
+                        <span>Boleh walk-in?</span>
+                        <i id="faq4-icon" class="fa-solid fa-plus text-primary transition-transform"></i>
+                    </button>
+                    <div id="faq4" class="hidden p-5 border-t border-zinc-100 text-xs sm:text-sm text-zinc-600 leading-relaxed bg-white">
+                        Boleh, tetapi kami sangat menyarankan anda membuat tempahan slot terlebih dahulu melalui WhatsApp untuk mengelakkan masa menunggu yang lama memandangkan slot kami adalah terhad setiap hari.
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="border border-zinc-200 rounded-2xl overflow-hidden">
+                    <button onclick="toggleFAQ('faq5')" class="w-full flex justify-between items-center p-5 bg-zinc-50 hover:bg-zinc-100/50 transition font-bold text-sm sm:text-base text-darkBg focus:outline-none">
+                        <span>Ada warranty?</span>
+                        <i id="faq5-icon" class="fa-solid fa-plus text-primary transition-transform"></i>
+                    </button>
+                    <div id="faq5" class="hidden p-5 border-t border-zinc-100 text-xs sm:text-sm text-zinc-600 leading-relaxed bg-white">
+                        Ya, kami memberikan jaminan (warranty) bagi setiap penukaran alat ganti dan servis bushing kami. Sila hubungi penasihat servis kami untuk maklumat tempoh jaminan spesifik bagi setiap model kereta.
+                    </div>
                 </div>
             </div>
-
-            <!-- Accordion Item 3 -->
-            <div class="bg-white border border-zinc-200 rounded-2xl overflow-hidden shadow-sm transition">
-                <button type="button" onclick="toggleFaq(3)" class="w-full py-5 px-6 text-left font-heading font-bold text-gray-800 flex justify-between items-center focus:outline-none hover:bg-zinc-50">
-                    <span>Adakah harga yang dinyatakan termasuk kos upah pasang?</span>
-                    <i id="faq-icon-3" class="fa-solid fa-chevron-down text-zinc-400 transition-transform"></i>
-                </button>
-                <div id="faq-body-3" class="hidden border-t border-zinc-100 bg-zinc-50/50 py-5 px-6 text-sm text-zinc-600 leading-relaxed">
-                    Ya! Semua harga anggaran kasar yang kami sediakan di dalam senarai harga dan kalkulator interaktif adalah termasuk kos upah pemasangan yang telus tanpa caj tambahan tersembunyi.
-                </div>
-            </div>
-
-            <!-- Accordion Item 4 -->
-            <div class="bg-white border border-zinc-200 rounded-2xl overflow-hidden shadow-sm transition">
-                <button type="button" onclick="toggleFaq(4)" class="w-full py-5 px-6 text-left font-heading font-bold text-gray-800 flex justify-between items-center focus:outline-none hover:bg-zinc-50">
-                    <span>Bolehkah saya walk-in terus ke bengkel?</span>
-                    <i id="faq-icon-4" class="fa-solid fa-chevron-down text-zinc-400 transition-transform"></i>
-                </button>
-                <div id="faq-body-4" class="hidden border-t border-zinc-100 bg-zinc-50/50 py-5 px-6 text-sm text-zinc-600 leading-relaxed">
-                    Boleh, tetapi kami sangat menyarankan anda membuat tempahan slot terlebih dahulu melalui WhatsApp untuk mengelakkan masa menunggu yang lama memandangkan slot kami adalah terhad setiap hari bagi mengekalkan kualiti pembaikan.
-                </div>
-            </div>
-
-            <!-- Accordion Item 5 -->
-            <div class="bg-white border border-zinc-200 rounded-2xl overflow-hidden shadow-sm transition">
-                <button type="button" onclick="toggleFaq(5)" class="w-full py-5 px-6 text-left font-heading font-bold text-gray-800 flex justify-between items-center focus:outline-none hover:bg-zinc-50">
-                    <span>Adakah terdapat sebarang jaminan (warranty)?</span>
-                    <i id="faq-icon-5" class="fa-solid fa-chevron-down text-zinc-400 transition-transform"></i>
-                </button>
-                <div id="faq-body-5" class="hidden border-t border-zinc-100 bg-zinc-50/50 py-5 px-6 text-sm text-zinc-600 leading-relaxed">
-                    Ya, kami memberikan jaminan (warranty) bertulis bagi setiap penukaran alat ganti atau komponen bawah kenderaan di bengkel kami. Sila hubungi penasihat servis kami untuk mendapatkan tempoh jaminan spesifik bagi setiap jenis model kereta.
-                </div>
-            </div>
-
         </div>
     </section>
 
-    <!-- Location and Contact Section -->
-    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-white border-t border-zinc-900" id="lokasi">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <!-- Booking, Contact Info & Map Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-950 text-white" id="tempahan">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+            
+            <!-- Booking Form Card (Dynamic Lead Capture) -->
+            <div class="lg:col-span-7 bg-zinc-900 border border-zinc-800 p-6 md:p-10 rounded-3xl shadow-2xl">
+                <span class="text-primary font-bold text-xs uppercase tracking-widest bg-primary/10 border border-primary/20 px-3 py-1 rounded-full inline-block mb-4">Set Slot Anda</span>
+                <h3 class="text-2xl font-heading font-extrabold mb-2">Borang Tempahan Slot Bengkel</h3>
+                <p class="text-zinc-400 text-xs md:text-sm mb-6 leading-relaxed">Isi butiran ringkas kenderaan anda untuk menempah slot slot servis / pemeriksaan percuma.</p>
                 
-                <!-- Info Column (Left Side) -->
-                <div class="lg:col-span-5 space-y-6">
-                    <span class="inline-flex items-center gap-2 bg-primary/15 border border-primary/30 text-primary text-xs font-bold uppercase tracking-widest px-3.5 py-1.5 rounded-full">
-                        <i class="fa-solid fa-map-pin"></i> Lokasi Bengkel Kami
-                    </span>
-                    
-                    <h2 class="text-3xl sm:text-4xl font-heading font-black tracking-tight text-white leading-tight">
-                        Kunjungi Bengkel <span class="text-primary">MHA Autoworks</span>
-                    </h2>
-                    
-                    <p class="text-zinc-400 text-sm sm:text-base leading-relaxed">
-                        Premis fizikal kami terletak strategik di Setapak, Kuala Lumpur. Dilengkapi lif hoist profesional, hydraulic press, dan ruang menunggu yang selesa untuk pembaikan suspension anda.
-                    </p>
-
-                    <!-- Modern Card-Style Information Panel -->
-                    <div class="bg-zinc-900 border border-zinc-850 p-6 rounded-2xl shadow-xl space-y-5">
-                        
-                        <!-- Header Status Badge Row -->
-                        <div class="flex justify-between items-center border-b border-zinc-800 pb-4">
-                            <span class="text-xs uppercase font-bold text-zinc-400 tracking-wider">Status Operasi</span>
-                            <div class="bg-green-500/10 text-green-400 text-xs font-bold px-3 py-1.5 rounded-full border border-green-500/20 flex items-center gap-1.5">
-                                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Buka Hari Ini (Isnin - Sabtu)
-                            </div>
+                <form id="appointmentForm" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400 mb-1.5">Nama Penuh</label>
+                            <input type="text" id="apt_name" placeholder="cth: Ahmad" class="w-full bg-zinc-850 border border-zinc-800 text-white rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-zinc-950">
                         </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400 mb-1.5">No Telefon</label>
+                            <input type="text" id="apt_phone" placeholder="cth: 0194103062" class="w-full bg-zinc-850 border border-zinc-800 text-white rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-zinc-950">
+                        </div>
+                    </div>
 
-                        <!-- Location Detail -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400 mb-1.5">Model Kereta</label>
+                            <input type="text" id="apt_model" placeholder="cth: Perodua Myvi 2018" class="w-full bg-zinc-850 border border-zinc-800 text-white rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-zinc-950">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400 mb-1.5">Pilihan Tarikh Temujanji</label>
+                            <input type="date" id="apt_date" class="w-full bg-zinc-850 border border-zinc-800 text-white rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-zinc-950">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400 mb-1.5">Simptom Utama / Servis Dikehendaki</label>
+                        <textarea id="apt_message" rows="3" placeholder="cth: Bunyi kasar belah roda hadapan kiri bila lalu jalan senget..." class="w-full bg-zinc-850 border border-zinc-800 text-white rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-zinc-950"></textarea>
+                    </div>
+
+                    <button type="button" onclick="submitAppointmentForm()" class="w-full bg-primary hover:bg-red-700 text-white font-bold py-4 px-6 rounded-xl transition duration-300 flex items-center justify-center gap-3 shadow-lg">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Hantar Maklumat &amp; Tempah Slot
+                    </button>
+                </form>
+            </div>
+
+            <!-- Workshop Contact Details & Embedded Responsive Google Maps -->
+            <div class="lg:col-span-5 flex flex-col justify-between space-y-6">
+                <div>
+                    <span class="text-primary font-bold text-xs uppercase tracking-widest bg-primary/10 border border-primary/20 px-3 py-1 rounded-full inline-block mb-4">Lokasi Kami</span>
+                    <h3 class="text-2xl font-heading font-extrabold mb-4">MHA Autoworks Setapak</h3>
+                    
+                    <div class="space-y-4 text-xs sm:text-sm">
                         <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-primary shrink-0">
-                                <i class="fa-solid fa-location-dot"></i>
+                            <div class="text-primary text-xl mt-0.5">
+                                <i class="fa-solid fa-map-location-dot"></i>
                             </div>
                             <div>
-                                <h4 class="font-heading font-bold text-sm text-white">Alamat Bengkel</h4>
-                                <p class="text-zinc-400 text-xs sm:text-sm mt-1 leading-relaxed">340, Jalan Ayer Panas, Setapak, 53200 Kuala Lumpur</p>
+                                <h4 class="font-bold text-zinc-200">Alamat Bengkel</h4>
+                                <p class="text-zinc-400 mt-0.5">340, Jalan Ayer Panas, Setapak, 53100 Kuala Lumpur, Wilayah Persekutuan</p>
                             </div>
                         </div>
 
-                        <!-- Hours Detail -->
                         <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-primary shrink-0">
+                            <div class="text-primary text-xl mt-0.5">
                                 <i class="fa-solid fa-clock"></i>
                             </div>
                             <div>
-                                <h4 class="font-heading font-bold text-sm text-white">Waktu Operasi</h4>
-                                <p class="text-zinc-400 text-xs sm:text-sm mt-1">Isnin - Sabtu : 9:30 AM - 6:00 PM</p>
-                                <p class="text-zinc-500 text-[11px] mt-0.5">Hari Ahad & Cuti Umum Tutup</p>
+                                <h4 class="font-bold text-zinc-200">Waktu Operasi</h4>
+                                <p class="text-zinc-400 mt-0.5">Isnin – Sabtu (9:30 Pagi – 6:00 Petang) • Tutup Ahad</p>
                             </div>
                         </div>
-
-                        <!-- Hotline Detail -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-primary shrink-0">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-heading font-bold text-sm text-white">Hubungi Talian Sembang</h4>
-                                <a href="tel:0194103062" class="text-primary font-bold text-sm hover:underline mt-1 block">+6019-410 3062</a>
-                            </div>
-                        </div>
-
                     </div>
 
-                    <!-- Direct Action Buttons with Smooth Animations -->
-                    <div class="grid grid-cols-2 gap-4 pt-2">
-                        <a href="https://waze.com/ul?q=340%20Jalan%20Ayer%20Panas%20Setapak%2053100%20Kuala%20Lumpur" target="_blank" class="bg-primary hover:bg-red-700 text-white font-bold py-3.5 px-4 rounded-xl text-center text-xs sm:text-sm flex items-center justify-center gap-2 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(214,0,0,0.4)]">
-                            <i class="fa-solid fa-location-arrow"></i> Dapatkan Arah (Waze)
-                        </a>
-                        <a href="tel:0194103062" class="bg-zinc-850 hover:bg-zinc-800 border border-zinc-700 text-white font-bold py-3.5 px-4 rounded-xl text-center text-xs sm:text-sm flex items-center justify-center gap-2 transition-all duration-300 transform hover:-translate-y-1">
-                            <i class="fa-solid fa-phone"></i> Hubungi Kami
-                        </a>
+                    <!-- Integrated responsive Google Maps Widget from iframe (Repositioned precisely for Setapak location) -->
+                    <div class="w-full mt-6 rounded-2xl overflow-hidden shadow-lg border border-zinc-800 h-60 relative">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.69382103448!2d101.71181677510708!3d3.190623653131754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4b001b12e581%3A0xfad1e8adeb347095!2sMHA%20AUTOWORKS%20AND%20SERVICES%20SDN.%20BHD.!5e0!3m2!1sen!2smy!4v1718000000000" class="absolute inset-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
-                <!-- Google Map Embedded Container (Right Side) -->
-                <div class="lg:col-span-7 bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 shadow-2xl h-[380px] lg:h-[480px] relative">
-                    <iframe 
-                        id="workshop-google-map"
-                        src="" 
-                        class="w-full h-full border-none" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                <!-- Navigation Apps Buttons -->
+                <div class="pt-4 border-t border-zinc-800">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-zinc-400 mb-3">Navigasi Langsung:</h4>
+                    <div class="grid grid-cols-2 gap-3">
+                        <a href="https://waze.com/ul?q=340%20Jalan%20Ayer%20Panas%20Setapak%2053100%20Kuala%20Lumpur" target="_blank" class="bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 border border-sky-500/20 font-bold py-3 px-4 rounded-xl text-center text-xs flex items-center justify-center gap-2 transition">
+                            <i class="fa-brands fa-waze text-base"></i> Buka Waze
+                        </a>
+                        <a href="https://www.google.com/maps/place/MHA+AUTOWORKS+AND+SERVICES+SDN.+BHD." target="_blank" class="bg-green-500/10 hover:bg-green-500/20 text-green-400 border border-green-500/20 font-bold py-3 px-4 rounded-xl text-center text-xs flex items-center justify-center gap-2 transition">
+                            <i class="fa-solid fa-map-pin text-base"></i> Google Maps
+                        </a>
+                    </div>
                 </div>
-
             </div>
+
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-darkBg text-zinc-400 py-12 px-4 sm:px-6 lg:px-8 border-t border-zinc-800">
+    <footer class="bg-zinc-950 border-t border-zinc-900 py-12 px-4 sm:px-6 lg:px-8 text-zinc-500 text-xs">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-            <div class="flex flex-col text-center md:text-left">
-                <span class="text-white font-heading font-extrabold text-xl tracking-tight leading-none">
-                    MHA <span class="text-primary">AUTOWORKS</span>
-                </span>
-                <span class="text-[9px] text-zinc-400 tracking-widest mt-1 uppercase font-semibold">
-                    &amp; SERVICES SDN BHD (SETAPAK)
-                </span>
-                <p class="text-xs text-zinc-500 mt-4 max-w-sm">
-                    Penyedia servis bushing kereta profesional, absorber, pembaikan drive shaft dan skim disc di Kuala Lumpur.
-                </p>
+            <div class="text-center md:text-left">
+                <p class="font-bold text-zinc-300 uppercase tracking-widest text-sm mb-1">MHA AUTOWORKS &amp; SERVICES SDN BHD</p>
+                <p class="text-zinc-500 mb-3 text-xs">Pakar Baik Pulih Bawah Kenderaan &amp; Sistem Brek No. 1 di Setapak, KL.</p>
+                <p>&copy; 2026 MHA Autoworks and Services. Semua Hak Cipta Terpelihara.</p>
             </div>
-
-            <!-- Footer links -->
-            <div class="flex flex-wrap justify-center gap-6 text-xs font-semibold text-zinc-300">
-                <a href="#masalah" class="hover:text-primary transition">Tanda Kerosakan</a>
-                <a href="#servis" class="hover:text-primary transition">Servis</a>
-                <a href="#kalkulator" class="hover:text-primary transition">Kalkulator Harga</a>
-                <a href="#kelebihan" class="hover:text-primary transition">Kenapa Kami</a>
-                <a href="#testimoni" class="hover:text-primary transition">Testimoni</a>
-                <a href="#soalan-lazim" class="hover:text-primary transition">Soalan Lazim</a>
-                <a href="#lokasi" class="hover:text-primary transition">Lokasi</a>
+            <div class="flex flex-wrap justify-center gap-6 text-zinc-400 text-xs">
+                <a href="#masalah" class="hover:text-primary transition">Tanda Rosak</a>
+                <a href="#servis" class="hover:text-primary transition">Pakej Servis</a>
+                <a href="#kalkulator" class="hover:text-primary transition">Kalkulator Kos</a>
+                <a href="#tempahan" class="hover:text-primary transition">Set Slot</a>
+                <a href="#faq" class="hover:text-primary transition">FAQ</a>
             </div>
-        </div>
-
-        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-800/80 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-zinc-500">
-            <p>&copy; 2026 MHA Autoworks and Services Sdn Bhd. Semua Hak Cipta Terpelihara.</p>
-            <p>Dibina secara profesional untuk penukaran pelanggan yang tinggi.</p>
         </div>
     </footer>
 
-    <!-- Scripts Section -->
+    <!-- Interactive Scripts -->
     <script>
-        // Configuration: Simply change this embed URL to update the workshop map location!
-        const GOOGLE_MAPS_EMBED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039623.4183856964!2d99.27777195624999!3d3.189115899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4b001b12e581%3A0xfad1e8adeb347095!2sMHA%20AUTOWORKS%20AND%20SERVICES%20SDN.%20BHD.!5e0!3m2!1sen!2smy!4v1780982666679!5m2!1sen!2smy";
+        // Hero Symptoms Quiz Submit Logic: Updates URL on checkbox click for reliable redirection
+        function updateHeroQuizCTA() {
+            const form = document.getElementById('heroQuizForm');
+            const checkedBoxes = form.querySelectorAll('input[type="checkbox"]:checked');
+            const ctaBtn = document.getElementById('heroQuizCTA');
+            
+            if (!ctaBtn) return;
 
-        // Car Category Prices Map
-        const pricingData = {
+            let message = "";
+            if (checkedBoxes.length === 0) {
+                message = "Hi Admin MHA, saya ada isu bunyi/ketidakstabilan di bawah kereta saya. Boleh saya dapatkan nasihat mekanik?";
+            } else {
+                let symptomsList = [];
+                checkedBoxes.forEach(box => {
+                    symptomsList.push(box.value);
+                });
+                message = `Hi Admin MHA Autoworks, saya ingin bertanya tentang masalah kereta saya yang mempunyai simptom:\n- ${symptomsList.join('\n- ')}\n\nBoleh saya tahu anggaran kos baik pulih & ketersediaan slot kosong minggu ini? Terima kasih.`;
+            }
+
+            ctaBtn.href = `https://wa.me/60194103062?text=${encodeURIComponent(message)}`;
+        }
+
+        // Selected vehicle category state variable
+        let selectedCategory = 'compact';
+
+        // Vehicle category matrices updated with precise values from the reference sheet
+        const priceMatrices = {
             compact: {
-                bush: { label: 'Tukar Bushing Lower Arm', min: 120, max: 180 },
-                absorber: { label: 'Servis / Tukar Absorber Depan', min: 380, max: 480 },
-                driveshaft: { label: 'Tukar Drive Shaft (1 Sisi)', min: 150, max: 200 },
-                disc: { label: 'Skim Disc Brake (Sepasang)', min: 80, max: 100 }
+                label: "Proton / Perodua",
+                services: [
+                    { id: "bush", label: "Tukar Lower Arm Bush (Depan)", desc: "Harga termasuk upah pasang & pump bush", min: 300, max: 360, display: "RM 300 - 360" },
+                    { id: "stab_bush", label: "Tukar Stabilizer Bar Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 140, max: 160, display: "RM 140 - 160" },
+                    { id: "stab_link", label: "Tukar Stabilizer Link (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 160, max: 180, display: "RM 160 - 180" },
+                    { id: "axle_bush", label: "Tukar Axle Bush (Belakang)", desc: "Harga termasuk upah pasang & pump bush", min: 400, max: 460, display: "RM 400 - 460" },
+                    { id: "spring_seat", label: "Tukar Spring Seat", desc: "Harga termasuk upah pasang & pump bush", min: 120, max: 120, display: "RM 120" },
+                    { id: "shaft", label: "Servis Drive Shaft (Sebelah)", desc: "Harga termasuk upah pasang & pump bush", min: 160, max: 160, display: "RM 160" },
+                    { id: "skim", label: "Skim Disc Brake On-Car (Sepasang)", desc: "Melicinkan semula rotor cakera brek", min: 150, max: 190, display: "RM 150 - 190" }
+                ]
             },
-            sedan: {
-                bush: { label: 'Tukar Bushing Lower Arm', min: 140, max: 200 },
-                absorber: { label: 'Servis / Tukar Absorber Depan', min: 420, max: 550 },
-                driveshaft: { label: 'Tukar Drive Shaft (1 Sisi)', min: 180, max: 240 },
-                disc: { label: 'Skim Disc Brake (Sepasang)', min: 90, max: 110 }
+            sedanLarge: {
+                label: "Toyota / Honda / Nissan / Hyundai",
+                services: [
+                    { id: "bush", label: "Tukar Lower Arm Bush (Depan)", desc: "Harga termasuk upah pasang & pump bush", min: 320, max: 380, display: "RM 320 - 380" },
+                    { id: "stab_bush", label: "Tukar Stabilizer Bar Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 160, max: 180, display: "RM 160 - 180" },
+                    { id: "stab_link", label: "Tukar Stabilizer Link (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 180, max: 220, display: "RM 180 - 220" },
+                    { id: "axle_bush", label: "Tukar Axle Bush (Belakang)", desc: "Harga termasuk upah pasang & pump bush", min: 440, max: 480, display: "RM 440 - 480" },
+                    { id: "spring_seat", label: "Tukar Spring Seat", desc: "Harga termasuk upah pasang & pump bush", min: 140, max: 140, display: "RM 140" },
+                    { id: "shaft", label: "Servis Drive Shaft (Sebelah)", desc: "Harga termasuk upah pasang & pump bush", min: 160, max: 160, display: "RM 160" },
+                    { id: "skim", label: "Skim Disc Brake On-Car (Sepasang)", desc: "Melicinkan semula rotor cakera brek", min: 150, max: 190, display: "RM 150 - 190" }
+                ]
             },
-            suv: {
-                bush: { label: 'Tukar Bushing Lower Arm', min: 220, max: 350 },
-                absorber: { label: 'Servis / Tukar Absorber Depan', min: 580, max: 850 },
-                driveshaft: { label: 'Tukar Drive Shaft (1 Sisi)', min: 280, max: 380 },
-                disc: { label: 'Skim Disc Brake (Sepasang)', min: 120, max: 150 }
+            vw: {
+                label: "Volkswagen (VW)",
+                services: [
+                    { id: "bush", label: "Tukar Lower Arm Bush (4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 380, max: 380, display: "RM 380" },
+                    { id: "stab_bush", label: "Tukar Stabilizer Bar Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 280, max: 280, display: "RM 280" },
+                    { id: "stab_link", label: "Tukar Stabilizer Link (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 260, max: 260, display: "RM 260" },
+                    { id: "shaft", label: "Servis Drive Shaft VW (Sebatang)", desc: "Harga termasuk upah pasang", min: 280, max: 280, display: "RM 280" },
+                    { id: "absorber", label: "Servis Absorber VW (Sepasang)", desc: "Mengatasi hentakan kasar / ayunan kuat", min: 240, max: 240, display: "RM 240" },
+                    { id: "rear_check", label: "Bahagian Belakang (Pemeriksaan)", desc: "Perlu datang bengkel untuk pemeriksaan fizikal dahulu", min: 0, max: 0, display: "Dtg Check Dulu" },
+                    { id: "skim", label: "Skim Disc Brake On-Car (Sepasang)", desc: "Melicinkan semula rotor cakera brek", min: 150, max: 190, display: "RM 150 - 190" }
+                ]
             },
-            premium: {
-                bush: { label: 'Tukar Bushing Lower Arm', min: 280, max: 450 },
-                absorber: { label: 'Servis / Tukar Absorber Depan', min: 750, max: 1200 },
-                driveshaft: { label: 'Tukar Drive Shaft (1 Sisi)', min: 350, max: 500 },
-                disc: { label: 'Skim Disc Brake (Sepasang)', min: 140, max: 180 }
+            estima: {
+                label: "Toyota Estima",
+                services: [
+                    { id: "bush", label: "Tukar Lower Arm Bush (Front - 4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 360, max: 380, display: "RM 360 - 380" },
+                    { id: "stab_bush", label: "Tukar Stabilizer Bar Bush (Front - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 160, max: 160, display: "RM 160" },
+                    { id: "stab_link", label: "Tukar Stabilizer Link (Front - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 220, max: 220, display: "RM 220" },
+                    { id: "shaft", label: "Servis Drive Shaft Front", desc: "Harga termasuk upah pasang & pump bush", min: 330, max: 330, display: "RM 330" },
+                    { id: "axle_bush", label: "Tukar Rear Axle Bush (Rear - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 540, max: 540, display: "RM 540" },
+                    { id: "spring_seat", label: "Tukar Rear Spring Seat (4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 140, max: 140, display: "RM 140" },
+                    { id: "absorber", label: "Servis Absorber Depan (Sepasang)", desc: "Menstabilkan kestabilan MPV Premium", min: 200, max: 200, display: "RM 200" },
+                    { id: "skim", label: "Skim Disc Brake On-Car (Sepasang)", desc: "Melicinkan semula rotor cakera brek", min: 150, max: 190, display: "RM 150 - 190" }
+                ]
+            },
+            vellfire: {
+                label: "Toyota Vellfire / Alphard",
+                services: [
+                    { id: "bush", label: "Tukar Lower Arm Bush (Front - 4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 380, max: 420, display: "RM 380 - 420" },
+                    { id: "stab_bush", label: "Tukar Stabilizer Bar Bush (Front - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 180, max: 180, display: "RM 180" },
+                    { id: "stab_link", label: "Tukar Stabilizer Link (Front - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 220, max: 220, display: "RM 220" },
+                    { id: "subframe", label: "Tukar Subframe Bush (Front Main - 8pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 590, max: 590, display: "RM 590" },
+                    { id: "upper_arm_rear", label: "Tukar Rear Upper Arm Bush (4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 320, max: 320, display: "RM 320" },
+                    { id: "lower_arm_rear", label: "Tukar Rear Lower Arm Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 250, max: 250, display: "RM 250" },
+                    { id: "short_arm_rear", label: "Tukar Rear Short Arm Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 250, max: 250, display: "RM 250" },
+                    { id: "trailing_rear", label: "Tukar Rear Trailing Arm Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 390, max: 390, display: "RM 390" },
+                    { id: "knuckle_rear", label: "Tukar Rear Knuckle Bush (4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 380, max: 380, display: "RM 380" },
+                    { id: "stab_bush_rear", label: "Tukar Rear Stabilizer Bar Bush (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 180, max: 180, display: "RM 180" },
+                    { id: "stab_link_rear", label: "Tukar Rear Stabilizer Link (2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 220, max: 220, display: "RM 220" },
+                    { id: "absorber", label: "Servis Absorber Depan (Sepasang)", desc: "Kombinasi mantap keselesaan memandu", min: 200, max: 200, display: "RM 200" },
+                    { id: "skim", label: "Skim Disc Brake On-Car (Sepasang)", desc: "Melicinkan semula rotor cakera brek", min: 150, max: 190, display: "RM 150 - 190" }
+                ]
+            },
+            fourbyfour: {
+                label: "SUV & 4X4",
+                services: [
+                    { id: "bush", label: "Tukar Lower Arm Bush (Front - 4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 420, max: 480, display: "RM 420 - 480" },
+                    { id: "upper_arm", label: "Tukar Upper Arm Bush (Front - 4pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 320, max: 360, display: "RM 320 - 360" },
+                    { id: "stab_bush", label: "Tukar Stabilizer Bar Bush (Front - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 160, max: 160, display: "RM 160" },
+                    { id: "stab_link", label: "Tukar Stabilizer Link (Front - 2pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 220, max: 220, display: "RM 220" },
+                    { id: "leaf_bush", label: "Tukar Rear Spring Leaf Bush (10pcs)", desc: "Harga termasuk upah pasang & pump bush", min: 400, max: 460, display: "RM 400 - 460" },
+                    { id: "skim", label: "Skim Disc Brake On-Car (Sepasang)", desc: "Melicinkan semula rotor cakera brek", min: 150, max: 190, display: "RM 150 - 190" }
+                ]
             }
         };
 
-        let currentCategory = 'compact';
-
-        // Initialize Pricing Calculator Summary List on page load
-        window.onload = function() {
-            // Render map iframe dynamically using the configuration variable
-            const mapIframe = document.getElementById('workshop-google-map');
-            if (mapIframe) {
-                mapIframe.src = GOOGLE_MAPS_EMBED_URL;
-            }
+        // Handles tab-style visual selection of Vehicle categories
+        function selectVehicleCategory(categoryKey) {
+            selectedCategory = categoryKey;
             
-            calculateEstimate();
-        }
-
-        // Submitting Hero Symptom Quiz Form
-        function submitHeroQuiz() {
-            const form = document.getElementById('heroQuizForm');
-            const checkboxes = form.querySelectorAll('input[type="checkbox"]:checked');
-            let symptoms = [];
-            
-            checkboxes.forEach((cb) => {
-                symptoms.push(cb.value);
+            // UI Button Class Updates
+            document.querySelectorAll('.vehicle-tab-btn').forEach(btn => {
+                btn.classList.remove('border-primary', 'text-darkBg');
+                btn.classList.add('border-zinc-200/80', 'text-zinc-500');
             });
 
-            let waMessage = "Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20.";
-            if (symptoms.length > 0) {
-                waMessage += "%0A%0ASimptom yang dikesan:%0A";
-                symptoms.forEach((sym) => {
-                    waMessage += `- ${sym}%0A`;
-                });
-            }
-
-            const waLink = `https://wa.me/60194103062?text=${waMessage}`;
-            window.open(waLink, '_blank');
-        }
-
-        // Select Car Category in Calculator
-        function selectCarCategory(category) {
-            currentCategory = category;
-
-            // Remove active style from all buttons
-            const buttons = document.querySelectorAll('.category-btn');
-            buttons.forEach((btn) => {
-                btn.classList.remove('border-primary', 'bg-red-50/50');
-                btn.classList.add('border-zinc-200');
-            });
-
-            // Add active style to selected button
-            const activeBtn = document.getElementById(`btn-${category}`);
+            const activeBtn = document.getElementById('tab_' + categoryKey);
             if (activeBtn) {
-                activeBtn.classList.remove('border-zinc-200');
-                activeBtn.classList.add('border-primary', 'bg-red-50/50');
+                activeBtn.classList.remove('border-zinc-200/80', 'text-zinc-500');
+                activeBtn.classList.add('border-primary', 'text-darkBg');
             }
 
-            // Update individual prices shown in selector cards
-            const currentPricing = pricingData[category];
-            document.getElementById('price-bush').innerText = `RM${currentPricing.bush.min} - RM${currentPricing.bush.max}`;
-            document.getElementById('price-absorber').innerText = `RM${currentPricing.absorber.min} - RM${currentPricing.absorber.max}`;
-            document.getElementById('price-driveshaft').innerText = `RM${currentPricing.driveshaft.min} - RM${currentPricing.driveshaft.max}`;
-            document.getElementById('price-disc').innerText = `RM${currentPricing.disc.min} - RM${currentPricing.disc.max}`;
+            // Update Label Text Recaps
+            document.getElementById('selectedCategoryLabel').innerText = priceMatrices[categoryKey].label;
 
-            calculateEstimate();
-        }
+            // Render Service List Dynamically
+            const container = document.getElementById('servicesContainer');
+            container.innerHTML = ''; // Clear previous
 
-        // Recalculate cost inside Pricing Calculator
-        function calculateEstimate() {
-            const isBushChecked = document.getElementById('calc-bush').checked;
-            const isAbsorberChecked = document.getElementById('calc-absorber').checked;
-            const isDriveshaftChecked = document.getElementById('calc-driveshaft').checked;
-            const isDiscChecked = document.getElementById('calc-disc').checked;
+            const matrix = priceMatrices[categoryKey];
+            matrix.services.forEach((service, index) => {
+                const cardId = `card_p_${service.id}`;
+                const checkboxId = `chk_${service.id}`;
+                // First item is checked by default
+                const isChecked = index === 0 ? 'checked' : ''; 
+                const borderClass = index === 0 ? 'border-primary/25 bg-zinc-50' : 'border-zinc-200/80 bg-white';
+                const textClass = index === 0 ? 'text-primary' : 'text-zinc-600';
 
-            const categoryData = pricingData[currentCategory];
-            let minTotal = 0;
-            let maxTotal = 0;
-            let summaryHTML = '';
-
-            if (isBushChecked) {
-                minTotal += categoryData.bush.min;
-                maxTotal += categoryData.bush.max;
-                summaryHTML += `<div class="flex justify-between"><span>✓ Bushing Lower Arm</span><span>RM${categoryData.bush.min}-RM${categoryData.bush.max}</span></div>`;
-            }
-            if (isAbsorberChecked) {
-                minTotal += categoryData.absorber.min;
-                maxTotal += categoryData.absorber.max;
-                summaryHTML += `<div class="flex justify-between"><span>✓ Servis / Tukar Absorber Depan</span><span>RM${categoryData.absorber.min}-RM${categoryData.absorber.max}</span></div>`;
-            }
-            if (isDriveshaftChecked) {
-                minTotal += categoryData.driveshaft.min;
-                maxTotal += categoryData.driveshaft.max;
-                summaryHTML += `<div class="flex justify-between"><span>✓ Tukar Drive Shaft (1 sisi)</span><span>RM${categoryData.driveshaft.min}-RM${categoryData.driveshaft.max}</span></div>`;
-            }
-            if (isDiscChecked) {
-                minTotal += categoryData.disc.min;
-                maxTotal += categoryData.disc.max;
-                summaryHTML += `<div class="flex justify-between"><span>✓ Skim Disc Brake</span><span>RM${categoryData.disc.min}-RM${categoryData.disc.max}</span></div>`;
-            }
-
-            if (minTotal === 0) {
-                document.getElementById('calc-total-range').innerText = 'RM0';
-                document.getElementById('calc-summary-list').innerHTML = '<p class="text-zinc-500 italic">Sila pilih sekurang-kurangnya satu servis.</p>';
-            } else {
-                document.getElementById('calc-total-range').innerText = `RM${minTotal} - RM${maxTotal}`;
-                document.getElementById('calc-summary-list').innerHTML = summaryHTML;
-            }
-        }
-
-        // Send calculated estimation to WhatsApp
-        function submitCalculatorEstimate() {
-            const isBushChecked = document.getElementById('calc-bush').checked;
-            const isAbsorberChecked = document.getElementById('calc-absorber').checked;
-            const isDriveshaftChecked = document.getElementById('calc-driveshaft').checked;
-            const isDiscChecked = document.getElementById('calc-disc').checked;
-
-            let selectedServices = [];
-            const categoryData = pricingData[currentCategory];
-            let categoryLabel = currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
-
-            if (isBushChecked) selectedServices.push(`Bushing Lower Arm (RM${categoryData.bush.min}-RM${categoryData.bush.max})`);
-            if (isAbsorberChecked) selectedServices.push(`Servis/Tukar Absorber Depan (RM${categoryData.absorber.min}-RM${categoryData.absorber.max})`);
-            if (isDriveshaftChecked) selectedServices.push(`Tukar Drive Shaft (RM${categoryData.driveshaft.min}-RM${categoryData.driveshaft.max})`);
-            if (isDiscChecked) selectedServices.push(`Skim Disc Brake (RM${categoryData.disc.min}-RM${categoryData.disc.max})`);
-
-            if (selectedServices.length === 0) {
-                // Inline dynamic custom messaging replaces dangerous alerts
-                const element = document.getElementById('calc-summary-list');
-                element.innerHTML = '<p class="text-red-500 font-bold animate-pulse">Sila pilih sekurang-kurangnya 1 jenis servis dahulu!</p>';
-                return;
-            }
-
-            let message = `Hi%20Admin%20MHA%20%0Asaya%20nak%20set%20appointment%20.%20boleh%20check%20slot%20available%20%3F%0Aterima%20kasih%20.%0A%0A`;
-            message += `Kategori%20Kenderaan%3A%20*${categoryLabel}*%0A`;
-            message += `Servis%20diperlukan%3A%0A`;
-            selectedServices.forEach((serv) => {
-                message += `-%20${encodeURIComponent(serv)}%0A`;
+                const cardHtml = `
+                    <div onclick="togglePricingService('${checkboxId}', '${cardId}')" id="${cardId}" class="flex items-center justify-between p-4 rounded-2xl border-2 ${borderClass} cursor-pointer transition-all hover:bg-zinc-100/50">
+                        <div class="flex items-start gap-3">
+                            <input type="checkbox" id="${checkboxId}" ${isChecked} onchange="recalculatePremiumPricing()" class="form-checkbox h-4 w-4 text-primary rounded border-zinc-300 bg-white focus:ring-primary mt-1 pointer-events-none">
+                            <div>
+                                <h4 class="text-xs md:text-sm font-bold text-darkBg">${service.label}</h4>
+                                <p class="text-[10px] text-zinc-500 mt-0.5">${service.desc}</p>
+                            </div>
+                        </div>
+                        <div class="text-right pl-3">
+                            <span class="text-xs text-zinc-400 block font-semibold">Harga</span>
+                            <span class="text-xs md:text-sm font-extrabold ${textClass}" id="price_display_${service.id}">${service.display}</span>
+                        </div>
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', cardHtml);
             });
 
-            const waLink = `https://wa.me/60194103062?text=${message}`;
-            window.open(waLink, '_blank');
+            // Recalculate whole totals based on selections
+            recalculatePremiumPricing();
+        }
+
+        // Toggles selection of customizable pricing card packages
+        function togglePricingService(checkboxId, cardId) {
+            const checkbox = document.getElementById(checkboxId);
+            const card = document.getElementById(cardId);
+
+            if (!checkbox || !card) return;
+
+            checkbox.checked = !checkbox.checked;
+            const priceSpan = card.querySelector('[id^="price_display_"]');
+
+            if (checkbox.checked) {
+                card.classList.remove('bg-white', 'border-zinc-200/80');
+                card.classList.add('bg-zinc-50', 'border-primary/25');
+                if (priceSpan) {
+                    priceSpan.classList.remove('text-zinc-600');
+                    priceSpan.classList.add('text-primary');
+                }
+            } else {
+                card.classList.remove('bg-zinc-50', 'border-primary/25');
+                card.classList.add('bg-white', 'border-zinc-200/80');
+                if (priceSpan) {
+                    priceSpan.classList.remove('text-primary');
+                    priceSpan.classList.add('text-zinc-600');
+                }
+            }
+
+            recalculatePremiumPricing();
+        }
+
+        // Live premium calculations and dynamic CTA URL generation
+        function recalculatePremiumPricing() {
+            const matrix = priceMatrices[selectedCategory];
+            if (!matrix) return;
+
+            let minSum = 0;
+            let maxSum = 0;
+            let servicesList = [];
+            let hasDtgCheck = false;
+
+            matrix.services.forEach(service => {
+                const checkbox = document.getElementById(`chk_${service.id}`);
+                if (checkbox && checkbox.checked) {
+                    minSum += service.min;
+                    maxSum += service.max;
+                    servicesList.push(service.label);
+                    if (service.min === 0 && service.max === 0) {
+                        hasDtgCheck = true;
+                    }
+                }
+            });
+
+            // Render output values
+            const minPriceEl = document.getElementById('calcMinPrice');
+            const maxPriceEl = document.getElementById('calcMaxPrice');
+
+            if (hasDtgCheck && minSum === 0 && maxSum === 0) {
+                minPriceEl.innerText = "Dtg";
+                maxPriceEl.innerText = "Check";
+            } else {
+                minPriceEl.innerText = minSum;
+                maxPriceEl.innerText = maxSum;
+            }
+
+            // Generate WhatsApp dynamic URL and bind directly to anchor element href
+            const ctaBtn = document.getElementById('calcCtaBtn');
+            if (ctaBtn) {
+                let message = "";
+                if (servicesList.length === 0) {
+                    message = `Hi Admin MHA Autoworks, saya berminat untuk menyemak anggaran kos servis bagi kategori kenderaan: *${matrix.label}*.`;
+                } else {
+                    const priceText = (hasDtgCheck && minSum === 0 && maxSum === 0) ? "Dtg Check Dulu" : `RM ${minSum} - RM ${maxSum}`;
+                    message = `Hi Admin MHA Autoworks,\nSaya telah menggunakan kalkulator anggaran di laman web anda:\n\n🚗 *Kategori Kereta*: ${matrix.label}\n🔧 *Keperluan Servis*:\n- ${servicesList.join('\n- ')}\n\n💰 *Anggaran Kasar*: ${priceText}\n\nBoleh saya set tarikh appointment untuk buat pemeriksaan fizikal di bengkel anda? Terima kasih.`;
+                }
+                ctaBtn.href = `https://wa.me/60194103062?text=${encodeURIComponent(message)}`;
+            }
+        }
+
+        // Legacy wrapper for dynamic compatibility
+        function calculateEstimates() {
+            recalculatePremiumPricing();
+        }
+
+        // Legacy wrapper for redirection fallback
+        function sendCalculatedQuote() {
+            recalculatePremiumPricing();
         }
 
         // Toggle FAQ Accordion
-        function toggleFaq(index) {
-            const faqBody = document.getElementById(`faq-body-${index}`);
-            const faqIcon = document.getElementById(`faq-icon-${index}`);
-            
-            if (faqBody.classList.contains('hidden')) {
-                faqBody.classList.remove('hidden');
-                faqIcon.classList.add('rotate-180');
+        function toggleFAQ(faqId) {
+            const answer = document.getElementById(faqId);
+            const icon = document.getElementById(faqId + '-icon');
+
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
             } else {
-                faqBody.classList.add('hidden');
-                faqIcon.classList.remove('rotate-180');
+                answer.classList.add('hidden');
+                icon.classList.remove('fa-minus');
+                icon.classList.add('fa-plus');
             }
+        }
+
+        // Appointment Booking Form Submission to WhatsApp
+        function submitAppointmentForm() {
+            const name = document.getElementById('apt_name').value.trim();
+            const phone = document.getElementById('apt_phone').value.trim();
+            const model = document.getElementById('apt_model').value.trim();
+            const date = document.getElementById('apt_date').value;
+            const message = document.getElementById('apt_message').value.trim();
+
+            if (!name || !phone || !model || !date) {
+                // Custom visually non-blocking warning modal instead of standard browser alerts
+                const errorBox = document.createElement('div');
+                errorBox.className = "fixed bottom-5 right-5 bg-red-600 text-white font-bold p-4 rounded-xl shadow-2xl z-50 transition-all transform duration-300";
+                errorBox.innerHTML = `⚠️ Sila isi semua butiran wajib (Nama, No Tel, Model Kereta, dan Tarikh).`;
+                document.body.appendChild(errorBox);
+                
+                setTimeout(() => {
+                    errorBox.remove();
+                }, 4000);
+                return;
+            }
+
+            const formattedDate = new Date(date).toLocaleDateString('ms-MY', {
+                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+            });
+
+            const templateMsg = `Hi Admin MHA Autoworks,\nSaya ingin menempah slot slot pemeriksaan/penyelenggaraan suspension:\n\n👤 *Nama*: ${name}\n📞 *No Tel*: ${phone}\n🚗 *Model Kereta*: ${model}\n📅 *Tarikh Cadangan*: ${formattedDate}\n💬 *Ulasan Tambahan*: ${message || 'Tiada'}\n\nSila sahkan ketersediaan slot mekanik untuk tarikh ini. Terima kasih!`;
+            window.open(`https://wa.me/60194103062?text=${encodeURIComponent(templateMsg)}`, '_blank');
+        }
+
+        // Initial launch configuration setup
+        window.onload = function() {
+            selectVehicleCategory('compact');
+            updateHeroQuizCTA();
         }
     </script>
 </body>
